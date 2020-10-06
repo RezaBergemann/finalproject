@@ -24,11 +24,15 @@ OK, here we go.
 
 ## Introduction and Goals
 
-The goal of my project is to answer the question, What is...?
+Portuguese Man of War (*Physalia physalis*) are a species of siphonophore that can be found around the world in tropical and subtropical waters. Though, they are the most well known siphonophore, due to their pleustonic nature, and propensity to be blown ashore, there is still much unknown about them. As they pending the majority of their lives on the open ocean, it is difficult to acquire long-term visual data, and their delicate jelly-like nature makes it nearly impossible to tag them, or to observe them in a laboratory setting.
 
-The methods I will use to do this are...
+Some of the most pressing questions regarding Man of War are about their life cycle, such as the length of their life and their reproductive strategies (Munro et al, 2019). A greater understanding of the population structure of these animals may provide insights into these unanswered questions. Existing phylogenetic analyses of Portuguese Man of War have revealed that even within a relatively small geographic area, there is a substantial amount of genetic diversity, suggesting that on a global scale, there could be many distinct populations (Pontin & Cruickshank, 2012).
 
-The data I will use are (my own data/ data publicly available at YYY/ simulations)
+
+We intend to analyze RADseq data from 32 samples from four different site, Bermuda, Texas, Guam and South Africa, created by the Dunn Lab. RADseq, or restriction site associated DNA sequencing, is an efficient way to identify, and score many genetic markers for further population genomics or phylogeographic studies. As such, it can provide a greater resolution than other methods which result in far fewer markers (Davey 2010). An additional benefit is that RADseq data can be assembled de novo, and so the full genome of the species of interest is not needed. More relevant to our study, RADseq has been shown to be useful for the phylogeographic and population genomic studies of zooplankton and in particular, of cnidarians (Blanco-Bercial & Bucklin, 2016, Reitzel et al, 2013).
+
+The exact procedure that we will follow has yet to be determined, but the general process will be as follows. First, the raw RADseq must be assembled; for this we will use software like ipyrad (Eaton & Overcast 2020). Once the raw data has been assembled, either the analysis module of ipyrad or other alternative software will be used to generate phylogenies and infer population structure. In particular, we will look at the connectivity of populations in the same ocean basin, and across ocean basins.  
+
 
 ## Methods
 
@@ -47,4 +51,9 @@ The biggest difficulty in implementing these analyses was...
 If I did these analyses again, I would...
 
 ## References
-
+- Blanco‐Bercial, L. and Bucklin, A. (2016), New view of population genetics of zooplankton: RAD‐seq analysis reveals population structure of the North Atlantic planktonic copepod Centropages typicus. Mol Ecol, 25: 1566-1580. doi:10.1111/mec.13581
+-  Davey, J.W, Blaxter, M.L., RADSeq: next-generation population genetics, Briefings in Functional Genomics, Volume 9, Issue 5-6, December 2010, Pages 416–423, https://doi.org/10.1093/bfgp/elq031
+- Eaton, D.A. and Overcast, I., 2020. ipyrad: Interactive assembly and analysis of RADseq datasets. Bioinformatics, 36(8), pp.2592-2594.
+- Munro, C., Vue, Z., Behringer, R.R. et al. Morphology and development of the Portuguese man of war, Physalia physalis. Sci Rep 9, 15522 (2019). https://doi.org/10.1038/s41598-019-51842-1
+- Pontin, D.R., Cruickshank, R.H. Molecular phylogenetics of the genus Physalia (Cnidaria: Siphonophora) in New Zealand coastal waters reveals cryptic diversity. Hydrobiologia 686, 91–105 (2012). https://doi.org/10.1007/s10750-011-0994-8
+- Reitzel, A.M., Herrera, S., Layden, M.J., Martindale, M.Q. and Shank, T.M. (2013), Going where traditional markers have not gone before: utility of and promise for RAD sequencing in marine invertebrate phylogeography and population genomics. Mol Ecol, 22: 2953-2970. doi:10.1111/mec.12228
