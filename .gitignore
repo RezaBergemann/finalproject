@@ -1,0 +1,11 @@
+*.json
+
+*fastqs/
+
+raw_data/
+reference/
+
+*err.txt
+*out.txt
+
+ipyrad_log.txt
