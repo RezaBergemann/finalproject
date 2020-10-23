@@ -13,4 +13,4 @@ module load miniconda
 conda activate ipyrad
 ipcluster start --n 20 --daemonize
 sleep 60
-ipyrad -p params-phys_index2.txt -s 1 -c 20 -f --ipcluster
+ipyrad -p params-phys_index3.txt -s 1 -c 20 -f --ipcluster

@@ -1,13 +1,13 @@
 ------- ipyrad params file (v.0.7.30)-------------------------------------------
-phys_index1                    ## [0] [assembly_name]: Assembly name. Used to name output directories for assembly steps
-./                             ## [1] [project_dir]: Project dir (made in curdir if not present)
-raw_data/Physalia_1-ATCACG_S1_L004_R*.fastq.gz                              ## [2] [raw_fastq_path]: Location of raw non-demultiplexed fastq files
-raw_data/barcodes_index1                               ## [3] [barcodes_path]: Location of barcodes file
+phys_test                      ## [0] [assembly_name]: Assembly name. Used to name output directories for assembly steps
+/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad ## [1] [project_dir]: Project dir (made in curdir if not present)
+/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad/raw_data/Physalia_1-TTAGGC_S2_L004_R*.fastq.gz ## [2] [raw_fastq_path]: Location of raw non-demultiplexed fastq files
+/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad/raw_data/barcodes_index3 ## [3] [barcodes_path]: Location of barcodes file
                                ## [4] [sorted_fastq_path]: Location of demultiplexed/sorted fastq files
-denovo+reference                         ## [5] [assembly_method]: Assembly method (denovo, reference, denovo+reference, denovo-reference)
-reference/physalia_genome.fa                              ## [6] [reference_sequence]: Location of reference sequence file
-pairddrad                            ## [7] [datatype]: Datatype (see docs): rad, gbs, ddrad, etc.
-CATG, AATT                         ## [8] [restriction_overhang]: Restriction overhang (cut1,) or (cut1, cut2)
+denovo+reference               ## [5] [assembly_method]: Assembly method (denovo, reference, denovo+reference, denovo-reference)
+/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad/reference/physalia_genome.fa ## [6] [reference_sequence]: Location of reference sequence file
+pairddrad                      ## [7] [datatype]: Datatype (see docs): rad, gbs, ddrad, etc.
+CATG, AATT                     ## [8] [restriction_overhang]: Restriction overhang (cut1,) or (cut1, cut2)
 5                              ## [9] [max_low_qual_bases]: Max low quality base calls (Q<20) in a read
 33                             ## [10] [phred_Qscore_offset]: phred Q score offset (33 is default and very standard)
 6                              ## [11] [mindepth_statistical]: Min depth for statistical base calling
