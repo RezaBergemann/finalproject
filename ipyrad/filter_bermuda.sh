@@ -5,7 +5,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=15
 #SBATCH --mem-per-cpu=8G
-#SBATCH --partition=general
+#SBATCH --partition=scavenge
 #SBATCH --output=filter_bermuda_out.txt
 #SBATCH --error=filter_bermuda_err.txt
 

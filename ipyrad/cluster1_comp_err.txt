@@ -1,0 +1,14 @@
+INFO:ipyrad.assemble.cluster_within:inside trackjobs of derep_concat_split
+ERROR:ipyrad.core.assembly:IPyradError(vsearch v2.0.3_linux_x86_64, 125.2GB RAM, 20 cores
+https://github.com/torognes/vsearch
+
+Reading file /dev/stdin)
+INFO:ipyrad.core.assembly:interrupted engine 0 w/ SIGINT to 31063
+INFO:ipyrad.core.assembly:interrupted engine 2 w/ SIGINT to 31059
+INFO:ipyrad.core.assembly:interrupted engine 4 w/ SIGINT to 31055
+INFO:ipyrad.core.assembly:interrupted engine 6 w/ SIGINT to 31045
+INFO:ipyrad.core.assembly:interrupted engine 8 w/ SIGINT to 31075
+INFO:ipyrad.core.assembly:interrupted engine 10 w/ SIGINT to 31087
+INFO:ipyrad.core.assembly:interrupted engine 12 w/ SIGINT to 31091
+INFO:ipyrad.core.assembly:interrupted engine 14 w/ SIGINT to 31100
+INFO:ipyrad:debugging turned off
