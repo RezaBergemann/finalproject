@@ -10,3 +10,7 @@ The main tool that will be used for this project will be ipyrad. In order to uti
 So far I have managed to get to step 3 with a complete data set. Step 3, however, is the most computationally intensive step that takes upto a week to complete on the cluster, and I have run into an error with this step, that I am currently working on fixing. Should it prove too challenging to fix this issue, or it will be too time consuming, Kirsten Dion has successfully run through all seven steps with a complete data set using the reference assembly method on the cluster, and so her process can be repeated. 
 
 For examining population structure, I intend to use the STRUCTURE toolkit built into ipyrad.
+
+## Results (so far)
+
+The results of the analyses I have managed to complete are relatively large files/sets of files that are not suitable for uploading to github, and are located on the cluster. The scripts for all the analyses are located in this repository in the ipyrad directory. The parameters for the two different sets of analysis, one with all samples, and one with all samples from Bermuda are also located in the ipyrad directory.
