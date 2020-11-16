@@ -1,0 +1,17 @@
+            reads_raw
+Bermuda_15    2591935
+Bermuda_19    1555702
+Bermuda_28    5478100
+Bermuda_30    2940245
+Bermuda_54    3892497
+Bermuda_55    6629955
+Bermuda_63    1814210
+Bermuda_65    2975746
+Bermuda_67    6643315
+Bermuda_68    3981159
+Bermuda_69    8996284
+Bermuda_79    3444035
+Bermuda_8     1903198
+Bermuda_80   10150637
+Bermuda_81    1808886
+Bermuda_83    2573675
