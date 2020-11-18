@@ -5,11 +5,10 @@
 raw_data/
 reference/
 phy1_comp_refmapping/
-phy1_comp_edits/`
-
+phy1_comp_edits/
 
 *err.txt
 *out.txt
 
-ipyrad_log.tx
-t
+*.fastq.gz
+

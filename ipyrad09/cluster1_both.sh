@@ -8,7 +8,7 @@
 #SBATCH --error=cluster1_both_err.txt
 
 module load miniconda
-conda activate ipyrad
+conda activate ipyrad09
 
 ipcluster start --n $SLURM_NTASKS --daemonize
 

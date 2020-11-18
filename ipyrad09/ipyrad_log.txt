@@ -6,3 +6,11 @@
   Begin run: 2020-11-15 19:31
   Using args {'force': True, 'threads': 2, 'results': False, 'quiet': False, 'merge': None, 'ipcluster': 'default', 'cores': 0, 'params': 'params-phys_both.txt', 'branch': None, 'steps': '3', 'debug': True, 'new': None, 'download': None, 'MPI': False}
   Platform info: ('Linux', 'c14n03.farnam.hpc.yale.internal', '3.10.0-1062.33.1.el7.x86_64', '#1 SMP Thu Aug 13 10:55:03 EDT 2020', 'x86_64')2020-11-15 19:31:58,113 	pid=16899 	[__init__.py]	INFO 	debugging turned off
+
+ -------------------------------------------------------------
+  ipyrad [v.0.7.30]
+  Interactive assembly and analysis of RAD-seq data
+ -------------------------------------------------------------
+  Begin run: 2020-11-15 22:58
+  Using args {'force': True, 'threads': 2, 'results': False, 'quiet': False, 'merge': None, 'ipcluster': 'default', 'cores': 0, 'params': 'params-phys_both.txt', 'branch': None, 'steps': '3', 'debug': True, 'new': None, 'download': None, 'MPI': False}
+  Platform info: ('Linux', 'c18n04.farnam.hpc.yale.internal', '3.10.0-1062.33.1.el7.x86_64', '#1 SMP Thu Aug 13 10:55:03 EDT 2020', 'x86_64')2020-11-15 22:58:12,326 	pid=8634 	[__init__.py]	INFO 	debugging turned off
