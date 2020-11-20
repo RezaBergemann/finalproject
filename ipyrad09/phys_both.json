@@ -6,8 +6,8 @@
             "fastqs":"",
             "edits":"",
             "clusts":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_clust_0.85",
-            "consens":"",
-            "across":"",
+            "consens":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens",
+            "across":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_across",
             "outfiles":"",
             "refmapping":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_refmapping"
         },
@@ -137,17 +137,21 @@
         ],
         "populations":{},
         "database":"",
-        "clust_database":"",
+        "clust_database":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_across/phys_both_clust_database.fa",
         "outfiles":{
             "loci":""
         },
         "barcodes":{},
         "stats_files":{
-            "s3":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_clust_0.85/s3_cluster_stats.txt"
+            "s3":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_clust_0.85/s3_cluster_stats.txt",
+            "s4":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_clust_0.85/s4_joint_estimate.txt",
+            "s5":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/s5_consens_stats.txt",
+            "s6":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_across/phys_both_clust_database.fa",
+            "s7":""
         },
         "hackersonly":{
             "random_seed":42,
-            "max_fragment_length":3141,
+            "max_fragment_length":3137,
             "max_inner_mate_distance":500,
             "p5_adapter":"AGATCGGAAGAGC",
             "p3_adapter":"AGATCGGAAGAGC",
@@ -188,8 +192,8 @@
                 "mapped_reads":[],
                 "unmapped_reads":[],
                 "clusters":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_clust_0.85/Bermuda_28.clustS.gz",
-                "consens":[],
-                "database":[],
+                "consens":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_28.consens.bam",
+                "database":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_28.catg.hdf5",
                 "concat":[
                     {
                         "__tuple__":true,
@@ -228,23 +232,23 @@
                     "filtered_bad_align":NaN
                 },
                 "s4":{
-                    "hetero_est":NaN,
-                    "error_est":NaN
+                    "hetero_est":0.014017986297607124,
+                    "error_est":0.009285531997680722
                 },
                 "s5":{
-                    "clusters_total":NaN,
-                    "filtered_by_depth":NaN,
-                    "filtered_by_maxH":NaN,
+                    "clusters_total":115132.0,
+                    "filtered_by_depth":110447.0,
+                    "filtered_by_maxH":108.0,
                     "filtered_by_maxAlleles":NaN,
-                    "filtered_by_maxN":NaN,
-                    "reads_consens":NaN,
-                    "nsites":NaN,
-                    "nhetero":NaN,
-                    "heterozygosity":NaN
+                    "filtered_by_maxN":0.0,
+                    "reads_consens":3339.0,
+                    "nsites":1196055.0,
+                    "nhetero":5546.0,
+                    "heterozygosity":0.004636910509968187
                 }
             },
             "stats":{
-                "state":3.0,
+                "state":6.0,
                 "reads_raw":5478100.0,
                 "reads_passed_filter":5466992.0,
                 "reads_merged":NaN,
@@ -252,9 +256,9 @@
                 "refseq_unmapped_reads":5142664.0,
                 "clusters_total":115132.0,
                 "clusters_hidepth":5447.0,
-                "hetero_est":NaN,
-                "error_est":NaN,
-                "reads_consens":NaN
+                "hetero_est":0.014017986297607124,
+                "error_est":0.009285531997680722,
+                "reads_consens":3339.0
             },
             "depths":{
                 "1":74130,
@@ -308,8 +312,8 @@
                 "mapped_reads":[],
                 "unmapped_reads":[],
                 "clusters":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_clust_0.85/Bermuda_83.clustS.gz",
-                "consens":[],
-                "database":[],
+                "consens":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_83.consens.bam",
+                "database":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_83.catg.hdf5",
                 "concat":[
                     {
                         "__tuple__":true,
@@ -348,23 +352,23 @@
                     "filtered_bad_align":NaN
                 },
                 "s4":{
-                    "hetero_est":NaN,
-                    "error_est":NaN
+                    "hetero_est":0.014463493585586363,
+                    "error_est":0.007027395129203841
                 },
                 "s5":{
-                    "clusters_total":NaN,
-                    "filtered_by_depth":NaN,
-                    "filtered_by_maxH":NaN,
+                    "clusters_total":176898.0,
+                    "filtered_by_depth":166028.0,
+                    "filtered_by_maxH":191.0,
                     "filtered_by_maxAlleles":NaN,
-                    "filtered_by_maxN":NaN,
-                    "reads_consens":NaN,
-                    "nsites":NaN,
-                    "nhetero":NaN,
-                    "heterozygosity":NaN
+                    "filtered_by_maxN":0.0,
+                    "reads_consens":7599.0,
+                    "nsites":2406930.0,
+                    "nhetero":9943.0,
+                    "heterozygosity":0.004130988437553232
                 }
             },
             "stats":{
-                "state":3.0,
+                "state":6.0,
                 "reads_raw":2573675.0,
                 "reads_passed_filter":2541077.0,
                 "reads_merged":NaN,
@@ -372,9 +376,9 @@
                 "refseq_unmapped_reads":1793410.0,
                 "clusters_total":176898.0,
                 "clusters_hidepth":12892.0,
-                "hetero_est":NaN,
-                "error_est":NaN,
-                "reads_consens":NaN
+                "hetero_est":0.014463493585586363,
+                "error_est":0.007027395129203841,
+                "reads_consens":7599.0
             },
             "depths":{
                 "1":105451,
@@ -428,8 +432,8 @@
                 "mapped_reads":[],
                 "unmapped_reads":[],
                 "clusters":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_clust_0.85/Bermuda_55.clustS.gz",
-                "consens":[],
-                "database":[],
+                "consens":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_55.consens.bam",
+                "database":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_55.catg.hdf5",
                 "concat":[
                     {
                         "__tuple__":true,
@@ -468,23 +472,23 @@
                     "filtered_bad_align":NaN
                 },
                 "s4":{
-                    "hetero_est":NaN,
-                    "error_est":NaN
+                    "hetero_est":0.01882279491424545,
+                    "error_est":0.006846560001373335
                 },
                 "s5":{
-                    "clusters_total":NaN,
-                    "filtered_by_depth":NaN,
-                    "filtered_by_maxH":NaN,
+                    "clusters_total":313869.0,
+                    "filtered_by_depth":291011.0,
+                    "filtered_by_maxH":503.0,
                     "filtered_by_maxAlleles":NaN,
-                    "filtered_by_maxN":NaN,
-                    "reads_consens":NaN,
-                    "nsites":NaN,
-                    "nhetero":NaN,
-                    "heterozygosity":NaN
+                    "filtered_by_maxN":0.0,
+                    "reads_consens":15056.0,
+                    "nsites":4196501.0,
+                    "nhetero":18437.0,
+                    "heterozygosity":0.004393422043745492
                 }
             },
             "stats":{
-                "state":3.0,
+                "state":6.0,
                 "reads_raw":6629955.0,
                 "reads_passed_filter":6546158.0,
                 "reads_merged":NaN,
@@ -492,9 +496,9 @@
                 "refseq_unmapped_reads":5015539.0,
                 "clusters_total":313869.0,
                 "clusters_hidepth":30146.0,
-                "hetero_est":NaN,
-                "error_est":NaN,
-                "reads_consens":NaN
+                "hetero_est":0.01882279491424545,
+                "error_est":0.006846560001373335,
+                "reads_consens":15056.0
             },
             "depths":{
                 "1":164251,
@@ -548,8 +552,8 @@
                 "mapped_reads":[],
                 "unmapped_reads":[],
                 "clusters":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_clust_0.85/Bermuda_30.clustS.gz",
-                "consens":[],
-                "database":[],
+                "consens":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_30.consens.bam",
+                "database":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_30.catg.hdf5",
                 "concat":[
                     {
                         "__tuple__":true,
@@ -588,23 +592,23 @@
                     "filtered_bad_align":NaN
                 },
                 "s4":{
-                    "hetero_est":NaN,
-                    "error_est":NaN
+                    "hetero_est":0.013441455662599588,
+                    "error_est":0.00795958011561312
                 },
                 "s5":{
-                    "clusters_total":NaN,
-                    "filtered_by_depth":NaN,
-                    "filtered_by_maxH":NaN,
+                    "clusters_total":163859.0,
+                    "filtered_by_depth":153936.0,
+                    "filtered_by_maxH":181.0,
                     "filtered_by_maxAlleles":NaN,
-                    "filtered_by_maxN":NaN,
-                    "reads_consens":NaN,
-                    "nsites":NaN,
-                    "nhetero":NaN,
-                    "heterozygosity":NaN
+                    "filtered_by_maxN":0.0,
+                    "reads_consens":6880.0,
+                    "nsites":2211893.0,
+                    "nhetero":8869.0,
+                    "heterozygosity":0.004009687629555317
                 }
             },
             "stats":{
-                "state":3.0,
+                "state":6.0,
                 "reads_raw":2940245.0,
                 "reads_passed_filter":2905831.0,
                 "reads_merged":NaN,
@@ -612,9 +616,9 @@
                 "refseq_unmapped_reads":2235648.0,
                 "clusters_total":163859.0,
                 "clusters_hidepth":11714.0,
-                "hetero_est":NaN,
-                "error_est":NaN,
-                "reads_consens":NaN
+                "hetero_est":0.013441455662599588,
+                "error_est":0.00795958011561312,
+                "reads_consens":6880.0
             },
             "depths":{
                 "1":97469,
@@ -668,8 +672,8 @@
                 "mapped_reads":[],
                 "unmapped_reads":[],
                 "clusters":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_clust_0.85/Bermuda_69.clustS.gz",
-                "consens":[],
-                "database":[],
+                "consens":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_69.consens.bam",
+                "database":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_69.catg.hdf5",
                 "concat":[
                     {
                         "__tuple__":true,
@@ -708,23 +712,23 @@
                     "filtered_bad_align":NaN
                 },
                 "s4":{
-                    "hetero_est":NaN,
-                    "error_est":NaN
+                    "hetero_est":0.014360111117362762,
+                    "error_est":0.008310002386570018
                 },
                 "s5":{
-                    "clusters_total":NaN,
-                    "filtered_by_depth":NaN,
-                    "filtered_by_maxH":NaN,
+                    "clusters_total":238693.0,
+                    "filtered_by_depth":225400.0,
+                    "filtered_by_maxH":239.0,
                     "filtered_by_maxAlleles":NaN,
-                    "filtered_by_maxN":NaN,
-                    "reads_consens":NaN,
-                    "nsites":NaN,
-                    "nhetero":NaN,
-                    "heterozygosity":NaN
+                    "filtered_by_maxN":0.0,
+                    "reads_consens":9339.0,
+                    "nsites":2884422.0,
+                    "nhetero":12682.0,
+                    "heterozygosity":0.004396721422870856
                 }
             },
             "stats":{
-                "state":3.0,
+                "state":6.0,
                 "reads_raw":8996284.0,
                 "reads_passed_filter":8980480.0,
                 "reads_merged":NaN,
@@ -732,9 +736,9 @@
                 "refseq_unmapped_reads":8095115.0,
                 "clusters_total":238693.0,
                 "clusters_hidepth":16022.0,
-                "hetero_est":NaN,
-                "error_est":NaN,
-                "reads_consens":NaN
+                "hetero_est":0.014360111117362762,
+                "error_est":0.008310002386570018,
+                "reads_consens":9339.0
             },
             "depths":{
                 "1":143138,
@@ -788,8 +792,8 @@
                 "mapped_reads":[],
                 "unmapped_reads":[],
                 "clusters":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_clust_0.85/Bermuda_54.clustS.gz",
-                "consens":[],
-                "database":[],
+                "consens":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_54.consens.bam",
+                "database":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_54.catg.hdf5",
                 "concat":[
                     {
                         "__tuple__":true,
@@ -828,23 +832,23 @@
                     "filtered_bad_align":NaN
                 },
                 "s4":{
-                    "hetero_est":NaN,
-                    "error_est":NaN
+                    "hetero_est":0.015167465209960661,
+                    "error_est":0.01154212188720713
                 },
                 "s5":{
-                    "clusters_total":NaN,
-                    "filtered_by_depth":NaN,
-                    "filtered_by_maxH":NaN,
+                    "clusters_total":114925.0,
+                    "filtered_by_depth":110764.0,
+                    "filtered_by_maxH":95.0,
                     "filtered_by_maxAlleles":NaN,
-                    "filtered_by_maxN":NaN,
-                    "reads_consens":NaN,
-                    "nsites":NaN,
-                    "nhetero":NaN,
-                    "heterozygosity":NaN
+                    "filtered_by_maxN":0.0,
+                    "reads_consens":2753.0,
+                    "nsites":864957.0,
+                    "nhetero":4817.0,
+                    "heterozygosity":0.005569062970760396
                 }
             },
             "stats":{
-                "state":3.0,
+                "state":6.0,
                 "reads_raw":3892497.0,
                 "reads_passed_filter":3883780.0,
                 "reads_merged":NaN,
@@ -852,9 +856,9 @@
                 "refseq_unmapped_reads":3593214.0,
                 "clusters_total":114925.0,
                 "clusters_hidepth":4860.0,
-                "hetero_est":NaN,
-                "error_est":NaN,
-                "reads_consens":NaN
+                "hetero_est":0.015167465209960661,
+                "error_est":0.01154212188720713,
+                "reads_consens":2753.0
             },
             "depths":{
                 "1":75359,
@@ -908,8 +912,8 @@
                 "mapped_reads":[],
                 "unmapped_reads":[],
                 "clusters":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_clust_0.85/Bermuda_65.clustS.gz",
-                "consens":[],
-                "database":[],
+                "consens":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_65.consens.bam",
+                "database":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_65.catg.hdf5",
                 "concat":[
                     {
                         "__tuple__":true,
@@ -948,23 +952,23 @@
                     "filtered_bad_align":NaN
                 },
                 "s4":{
-                    "hetero_est":NaN,
-                    "error_est":NaN
+                    "hetero_est":0.011476314544677508,
+                    "error_est":0.008932954788208023
                 },
                 "s5":{
-                    "clusters_total":NaN,
-                    "filtered_by_depth":NaN,
-                    "filtered_by_maxH":NaN,
+                    "clusters_total":127306.0,
+                    "filtered_by_depth":120453.0,
+                    "filtered_by_maxH":82.0,
                     "filtered_by_maxAlleles":NaN,
-                    "filtered_by_maxN":NaN,
-                    "reads_consens":NaN,
-                    "nsites":NaN,
-                    "nhetero":NaN,
-                    "heterozygosity":NaN
+                    "filtered_by_maxN":0.0,
+                    "reads_consens":5348.0,
+                    "nsites":1910177.0,
+                    "nhetero":7105.0,
+                    "heterozygosity":0.003719550596620104
                 }
             },
             "stats":{
-                "state":3.0,
+                "state":6.0,
                 "reads_raw":2975746.0,
                 "reads_passed_filter":2966949.0,
                 "reads_merged":NaN,
@@ -972,9 +976,9 @@
                 "refseq_unmapped_reads":2554620.0,
                 "clusters_total":127306.0,
                 "clusters_hidepth":7892.0,
-                "hetero_est":NaN,
-                "error_est":NaN,
-                "reads_consens":NaN
+                "hetero_est":0.011476314544677508,
+                "error_est":0.008932954788208023,
+                "reads_consens":5348.0
             },
             "depths":{
                 "1":80098,
@@ -1028,8 +1032,8 @@
                 "mapped_reads":[],
                 "unmapped_reads":[],
                 "clusters":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_clust_0.85/Bermuda_79.clustS.gz",
-                "consens":[],
-                "database":[],
+                "consens":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_79.consens.bam",
+                "database":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_79.catg.hdf5",
                 "concat":[
                     {
                         "__tuple__":true,
@@ -1068,23 +1072,23 @@
                     "filtered_bad_align":NaN
                 },
                 "s4":{
-                    "hetero_est":NaN,
-                    "error_est":NaN
+                    "hetero_est":0.013827060699462584,
+                    "error_est":0.012212281417846768
                 },
                 "s5":{
-                    "clusters_total":NaN,
-                    "filtered_by_depth":NaN,
-                    "filtered_by_maxH":NaN,
+                    "clusters_total":108421.0,
+                    "filtered_by_depth":104934.0,
+                    "filtered_by_maxH":67.0,
                     "filtered_by_maxAlleles":NaN,
-                    "filtered_by_maxN":NaN,
-                    "reads_consens":NaN,
-                    "nsites":NaN,
-                    "nhetero":NaN,
-                    "heterozygosity":NaN
+                    "filtered_by_maxN":0.0,
+                    "reads_consens":2428.0,
+                    "nsites":785093.0,
+                    "nhetero":4608.0,
+                    "heterozygosity":0.00586936834234925
                 }
             },
             "stats":{
-                "state":3.0,
+                "state":6.0,
                 "reads_raw":3444035.0,
                 "reads_passed_filter":3433656.0,
                 "reads_merged":NaN,
@@ -1092,9 +1096,9 @@
                 "refseq_unmapped_reads":3162515.0,
                 "clusters_total":108421.0,
                 "clusters_hidepth":4103.0,
-                "hetero_est":NaN,
-                "error_est":NaN,
-                "reads_consens":NaN
+                "hetero_est":0.013827060699462584,
+                "error_est":0.012212281417846768,
+                "reads_consens":2428.0
             },
             "depths":{
                 "1":73765,
@@ -1148,8 +1152,8 @@
                 "mapped_reads":[],
                 "unmapped_reads":[],
                 "clusters":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_clust_0.85/Bermuda_8.clustS.gz",
-                "consens":[],
-                "database":[],
+                "consens":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_8.consens.bam",
+                "database":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_8.catg.hdf5",
                 "concat":[
                     {
                         "__tuple__":true,
@@ -1188,23 +1192,23 @@
                     "filtered_bad_align":NaN
                 },
                 "s4":{
-                    "hetero_est":NaN,
-                    "error_est":NaN
+                    "hetero_est":0.012895992357283653,
+                    "error_est":0.00799784122966236
                 },
                 "s5":{
-                    "clusters_total":NaN,
-                    "filtered_by_depth":NaN,
-                    "filtered_by_maxH":NaN,
+                    "clusters_total":145454.0,
+                    "filtered_by_depth":135951.0,
+                    "filtered_by_maxH":169.0,
                     "filtered_by_maxAlleles":NaN,
-                    "filtered_by_maxN":NaN,
-                    "reads_consens":NaN,
-                    "nsites":NaN,
-                    "nhetero":NaN,
-                    "heterozygosity":NaN
+                    "filtered_by_maxN":0.0,
+                    "reads_consens":6703.0,
+                    "nsites":2280232.0,
+                    "nhetero":9680.0,
+                    "heterozygosity":0.00424518206919296
                 }
             },
             "stats":{
-                "state":3.0,
+                "state":6.0,
                 "reads_raw":1903198.0,
                 "reads_passed_filter":1889715.0,
                 "reads_merged":NaN,
@@ -1212,9 +1216,9 @@
                 "refseq_unmapped_reads":1279959.0,
                 "clusters_total":145454.0,
                 "clusters_hidepth":10556.0,
-                "hetero_est":NaN,
-                "error_est":NaN,
-                "reads_consens":NaN
+                "hetero_est":0.012895992357283653,
+                "error_est":0.00799784122966236,
+                "reads_consens":6703.0
             },
             "depths":{
                 "1":89433,
@@ -1268,8 +1272,8 @@
                 "mapped_reads":[],
                 "unmapped_reads":[],
                 "clusters":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_clust_0.85/Bermuda_19.clustS.gz",
-                "consens":[],
-                "database":[],
+                "consens":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_19.consens.bam",
+                "database":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_19.catg.hdf5",
                 "concat":[
                     {
                         "__tuple__":true,
@@ -1308,23 +1312,23 @@
                     "filtered_bad_align":NaN
                 },
                 "s4":{
-                    "hetero_est":NaN,
-                    "error_est":NaN
+                    "hetero_est":0.02214773225784278,
+                    "error_est":0.010936013174057083
                 },
                 "s5":{
-                    "clusters_total":NaN,
-                    "filtered_by_depth":NaN,
-                    "filtered_by_maxH":NaN,
+                    "clusters_total":190964.0,
+                    "filtered_by_depth":182305.0,
+                    "filtered_by_maxH":248.0,
                     "filtered_by_maxAlleles":NaN,
-                    "filtered_by_maxN":NaN,
-                    "reads_consens":NaN,
-                    "nsites":NaN,
-                    "nhetero":NaN,
-                    "heterozygosity":NaN
+                    "filtered_by_maxN":0.0,
+                    "reads_consens":4390.0,
+                    "nsites":640831.0,
+                    "nhetero":4620.0,
+                    "heterozygosity":0.007209389058893842
                 }
             },
             "stats":{
-                "state":3.0,
+                "state":6.0,
                 "reads_raw":1555702.0,
                 "reads_passed_filter":1488934.0,
                 "reads_merged":NaN,
@@ -1332,9 +1336,9 @@
                 "refseq_unmapped_reads":895552.0,
                 "clusters_total":190964.0,
                 "clusters_hidepth":10826.0,
-                "hetero_est":NaN,
-                "error_est":NaN,
-                "reads_consens":NaN
+                "hetero_est":0.02214773225784278,
+                "error_est":0.010936013174057083,
+                "reads_consens":4390.0
             },
             "depths":{
                 "1":114711,
@@ -1388,8 +1392,8 @@
                 "mapped_reads":[],
                 "unmapped_reads":[],
                 "clusters":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_clust_0.85/Bermuda_15.clustS.gz",
-                "consens":[],
-                "database":[],
+                "consens":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_15.consens.bam",
+                "database":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_15.catg.hdf5",
                 "concat":[
                     {
                         "__tuple__":true,
@@ -1428,23 +1432,23 @@
                     "filtered_bad_align":NaN
                 },
                 "s4":{
-                    "hetero_est":NaN,
-                    "error_est":NaN
+                    "hetero_est":0.012142635345458796,
+                    "error_est":0.00707020454406743
                 },
                 "s5":{
-                    "clusters_total":NaN,
-                    "filtered_by_depth":NaN,
-                    "filtered_by_maxH":NaN,
+                    "clusters_total":120439.0,
+                    "filtered_by_depth":113075.0,
+                    "filtered_by_maxH":104.0,
                     "filtered_by_maxAlleles":NaN,
-                    "filtered_by_maxN":NaN,
-                    "reads_consens":NaN,
-                    "nsites":NaN,
-                    "nhetero":NaN,
-                    "heterozygosity":NaN
+                    "filtered_by_maxN":0.0,
+                    "reads_consens":5641.0,
+                    "nsites":1970469.0,
+                    "nhetero":7322.0,
+                    "heterozygosity":0.003715866628706161
                 }
             },
             "stats":{
-                "state":3.0,
+                "state":6.0,
                 "reads_raw":2591935.0,
                 "reads_passed_filter":2586881.0,
                 "reads_merged":NaN,
@@ -1452,9 +1456,9 @@
                 "refseq_unmapped_reads":2129683.0,
                 "clusters_total":120439.0,
                 "clusters_hidepth":8626.0,
-                "hetero_est":NaN,
-                "error_est":NaN,
-                "reads_consens":NaN
+                "hetero_est":0.012142635345458796,
+                "error_est":0.00707020454406743,
+                "reads_consens":5641.0
             },
             "depths":{
                 "1":72730,
@@ -1508,8 +1512,8 @@
                 "mapped_reads":[],
                 "unmapped_reads":[],
                 "clusters":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_clust_0.85/Bermuda_67.clustS.gz",
-                "consens":[],
-                "database":[],
+                "consens":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_67.consens.bam",
+                "database":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_67.catg.hdf5",
                 "concat":[
                     {
                         "__tuple__":true,
@@ -1548,23 +1552,23 @@
                     "filtered_bad_align":NaN
                 },
                 "s4":{
-                    "hetero_est":NaN,
-                    "error_est":NaN
+                    "hetero_est":0.012225315630435767,
+                    "error_est":0.007461033457517674
                 },
                 "s5":{
-                    "clusters_total":NaN,
-                    "filtered_by_depth":NaN,
-                    "filtered_by_maxH":NaN,
+                    "clusters_total":210977.0,
+                    "filtered_by_depth":194783.0,
+                    "filtered_by_maxH":228.0,
                     "filtered_by_maxAlleles":NaN,
-                    "filtered_by_maxN":NaN,
-                    "reads_consens":NaN,
-                    "nsites":NaN,
-                    "nhetero":NaN,
-                    "heterozygosity":NaN
+                    "filtered_by_maxN":0.0,
+                    "reads_consens":13033.0,
+                    "nsites":4955348.0,
+                    "nhetero":18462.0,
+                    "heterozygosity":0.0037256717388970463
                 }
             },
             "stats":{
-                "state":3.0,
+                "state":6.0,
                 "reads_raw":6643315.0,
                 "reads_passed_filter":6629904.0,
                 "reads_merged":NaN,
@@ -1572,9 +1576,9 @@
                 "refseq_unmapped_reads":5724117.0,
                 "clusters_total":210977.0,
                 "clusters_hidepth":19199.0,
-                "hetero_est":NaN,
-                "error_est":NaN,
-                "reads_consens":NaN
+                "hetero_est":0.012225315630435767,
+                "error_est":0.007461033457517674,
+                "reads_consens":13033.0
             },
             "depths":{
                 "1":119675,
@@ -1628,8 +1632,8 @@
                 "mapped_reads":[],
                 "unmapped_reads":[],
                 "clusters":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_clust_0.85/Bermuda_68.clustS.gz",
-                "consens":[],
-                "database":[],
+                "consens":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_68.consens.bam",
+                "database":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_68.catg.hdf5",
                 "concat":[
                     {
                         "__tuple__":true,
@@ -1668,23 +1672,23 @@
                     "filtered_bad_align":NaN
                 },
                 "s4":{
-                    "hetero_est":NaN,
-                    "error_est":NaN
+                    "hetero_est":0.013569053649902074,
+                    "error_est":0.009433234405517639
                 },
                 "s5":{
-                    "clusters_total":NaN,
-                    "filtered_by_depth":NaN,
-                    "filtered_by_maxH":NaN,
+                    "clusters_total":187468.0,
+                    "filtered_by_depth":177886.0,
+                    "filtered_by_maxH":181.0,
                     "filtered_by_maxAlleles":NaN,
-                    "filtered_by_maxN":NaN,
-                    "reads_consens":NaN,
-                    "nsites":NaN,
-                    "nhetero":NaN,
-                    "heterozygosity":NaN
+                    "filtered_by_maxN":0.0,
+                    "reads_consens":6487.0,
+                    "nsites":2089756.0,
+                    "nhetero":9792.0,
+                    "heterozygosity":0.004685714504468464
                 }
             },
             "stats":{
-                "state":3.0,
+                "state":6.0,
                 "reads_raw":3981159.0,
                 "reads_passed_filter":3966491.0,
                 "reads_merged":NaN,
@@ -1692,9 +1696,9 @@
                 "refseq_unmapped_reads":3347120.0,
                 "clusters_total":187468.0,
                 "clusters_hidepth":11088.0,
-                "hetero_est":NaN,
-                "error_est":NaN,
-                "reads_consens":NaN
+                "hetero_est":0.013569053649902074,
+                "error_est":0.009433234405517639,
+                "reads_consens":6487.0
             },
             "depths":{
                 "1":117949,
@@ -1748,8 +1752,8 @@
                 "mapped_reads":[],
                 "unmapped_reads":[],
                 "clusters":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_clust_0.85/Bermuda_81.clustS.gz",
-                "consens":[],
-                "database":[],
+                "consens":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_81.consens.bam",
+                "database":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_81.catg.hdf5",
                 "concat":[
                     {
                         "__tuple__":true,
@@ -1788,23 +1792,23 @@
                     "filtered_bad_align":NaN
                 },
                 "s4":{
-                    "hetero_est":NaN,
-                    "error_est":NaN
+                    "hetero_est":0.014281490802764623,
+                    "error_est":0.009211467885971106
                 },
                 "s5":{
-                    "clusters_total":NaN,
-                    "filtered_by_depth":NaN,
-                    "filtered_by_maxH":NaN,
+                    "clusters_total":178380.0,
+                    "filtered_by_depth":168050.0,
+                    "filtered_by_maxH":209.0,
                     "filtered_by_maxAlleles":NaN,
-                    "filtered_by_maxN":NaN,
-                    "reads_consens":NaN,
-                    "nsites":NaN,
-                    "nhetero":NaN,
-                    "heterozygosity":NaN
+                    "filtered_by_maxN":0.0,
+                    "reads_consens":6936.0,
+                    "nsites":2066314.0,
+                    "nhetero":9275.0,
+                    "heterozygosity":0.0044886691954852944
                 }
             },
             "stats":{
-                "state":3.0,
+                "state":6.0,
                 "reads_raw":1808886.0,
                 "reads_passed_filter":1754828.0,
                 "reads_merged":NaN,
@@ -1812,9 +1816,9 @@
                 "refseq_unmapped_reads":1046774.0,
                 "clusters_total":178380.0,
                 "clusters_hidepth":12500.0,
-                "hetero_est":NaN,
-                "error_est":NaN,
-                "reads_consens":NaN
+                "hetero_est":0.014281490802764623,
+                "error_est":0.009211467885971106,
+                "reads_consens":6936.0
             },
             "depths":{
                 "1":106128,
@@ -1868,8 +1872,8 @@
                 "mapped_reads":[],
                 "unmapped_reads":[],
                 "clusters":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_clust_0.85/Bermuda_80.clustS.gz",
-                "consens":[],
-                "database":[],
+                "consens":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_80.consens.bam",
+                "database":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_80.catg.hdf5",
                 "concat":[
                     {
                         "__tuple__":true,
@@ -1908,23 +1912,23 @@
                     "filtered_bad_align":NaN
                 },
                 "s4":{
-                    "hetero_est":NaN,
-                    "error_est":NaN
+                    "hetero_est":0.011535653114318579,
+                    "error_est":0.010488089275360194
                 },
                 "s5":{
-                    "clusters_total":NaN,
-                    "filtered_by_depth":NaN,
-                    "filtered_by_maxH":NaN,
+                    "clusters_total":159280.0,
+                    "filtered_by_depth":152405.0,
+                    "filtered_by_maxH":106.0,
                     "filtered_by_maxAlleles":NaN,
-                    "filtered_by_maxN":NaN,
-                    "reads_consens":NaN,
-                    "nsites":NaN,
-                    "nhetero":NaN,
-                    "heterozygosity":NaN
+                    "filtered_by_maxN":0.0,
+                    "reads_consens":5069.0,
+                    "nsites":1710402.0,
+                    "nhetero":7595.0,
+                    "heterozygosity":0.004440476566327682
                 }
             },
             "stats":{
-                "state":3.0,
+                "state":6.0,
                 "reads_raw":10150637.0,
                 "reads_passed_filter":10137179.0,
                 "reads_merged":NaN,
@@ -1932,9 +1936,9 @@
                 "refseq_unmapped_reads":9679682.0,
                 "clusters_total":159280.0,
                 "clusters_hidepth":8152.0,
-                "hetero_est":NaN,
-                "error_est":NaN,
-                "reads_consens":NaN
+                "hetero_est":0.011535653114318579,
+                "error_est":0.010488089275360194,
+                "reads_consens":5069.0
             },
             "depths":{
                 "1":101505,
@@ -1988,8 +1992,8 @@
                 "mapped_reads":[],
                 "unmapped_reads":[],
                 "clusters":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_clust_0.85/Bermuda_63.clustS.gz",
-                "consens":[],
-                "database":[],
+                "consens":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_63.consens.bam",
+                "database":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_63.catg.hdf5",
                 "concat":[
                     {
                         "__tuple__":true,
@@ -2028,23 +2032,23 @@
                     "filtered_bad_align":NaN
                 },
                 "s4":{
-                    "hetero_est":NaN,
-                    "error_est":NaN
+                    "hetero_est":0.011183058738708201,
+                    "error_est":0.00912695665359502
                 },
                 "s5":{
-                    "clusters_total":NaN,
-                    "filtered_by_depth":NaN,
-                    "filtered_by_maxH":NaN,
+                    "clusters_total":124526.0,
+                    "filtered_by_depth":117144.0,
+                    "filtered_by_maxH":157.0,
                     "filtered_by_maxAlleles":NaN,
-                    "filtered_by_maxN":NaN,
-                    "reads_consens":NaN,
-                    "nsites":NaN,
-                    "nhetero":NaN,
-                    "heterozygosity":NaN
+                    "filtered_by_maxN":0.0,
+                    "reads_consens":4987.0,
+                    "nsites":1659745.0,
+                    "nhetero":6774.0,
+                    "heterozygosity":0.004081349845910065
                 }
             },
             "stats":{
-                "state":3.0,
+                "state":6.0,
                 "reads_raw":1814210.0,
                 "reads_passed_filter":1784583.0,
                 "reads_merged":NaN,
@@ -2052,9 +2056,9 @@
                 "refseq_unmapped_reads":1296482.0,
                 "clusters_total":124526.0,
                 "clusters_hidepth":8340.0,
-                "hetero_est":NaN,
-                "error_est":NaN,
-                "reads_consens":NaN
+                "hetero_est":0.011183058738708201,
+                "error_est":0.00912695665359502,
+                "reads_consens":4987.0
             },
             "depths":{
                 "1":76795,
@@ -2108,8 +2112,8 @@
                 "mapped_reads":[],
                 "unmapped_reads":[],
                 "clusters":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_clust_0.85/42_TX2016_046.clustS.gz",
-                "consens":[],
-                "database":[],
+                "consens":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/42_TX2016_046.consens.bam",
+                "database":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/42_TX2016_046.catg.hdf5",
                 "concat":[
                     {
                         "__tuple__":true,
@@ -2148,23 +2152,23 @@
                     "filtered_bad_align":NaN
                 },
                 "s4":{
-                    "hetero_est":NaN,
-                    "error_est":NaN
+                    "hetero_est":0.012114321708678938,
+                    "error_est":0.009876028537750305
                 },
                 "s5":{
-                    "clusters_total":NaN,
-                    "filtered_by_depth":NaN,
-                    "filtered_by_maxH":NaN,
+                    "clusters_total":99758.0,
+                    "filtered_by_depth":95915.0,
+                    "filtered_by_maxH":47.0,
                     "filtered_by_maxAlleles":NaN,
-                    "filtered_by_maxN":NaN,
-                    "reads_consens":NaN,
-                    "nsites":NaN,
-                    "nhetero":NaN,
-                    "heterozygosity":NaN
+                    "filtered_by_maxN":0.0,
+                    "reads_consens":3110.0,
+                    "nsites":1214327.0,
+                    "nhetero":5477.0,
+                    "heterozygosity":0.004510317237449221
                 }
             },
             "stats":{
-                "state":3.0,
+                "state":6.0,
                 "reads_raw":2625730.0,
                 "reads_passed_filter":2621504.0,
                 "reads_merged":NaN,
@@ -2172,9 +2176,9 @@
                 "refseq_unmapped_reads":2358646.0,
                 "clusters_total":99758.0,
                 "clusters_hidepth":4305.0,
-                "hetero_est":NaN,
-                "error_est":NaN,
-                "reads_consens":NaN
+                "hetero_est":0.012114321708678938,
+                "error_est":0.009876028537750305,
+                "reads_consens":3110.0
             },
             "depths":{
                 "1":70341,
@@ -2228,8 +2232,8 @@
                 "mapped_reads":[],
                 "unmapped_reads":[],
                 "clusters":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_clust_0.85/6_TX2017_027.clustS.gz",
-                "consens":[],
-                "database":[],
+                "consens":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/6_TX2017_027.consens.bam",
+                "database":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/6_TX2017_027.catg.hdf5",
                 "concat":[
                     {
                         "__tuple__":true,
@@ -2268,23 +2272,23 @@
                     "filtered_bad_align":NaN
                 },
                 "s4":{
-                    "hetero_est":NaN,
-                    "error_est":NaN
+                    "hetero_est":0.016928782939910677,
+                    "error_est":0.010515487527847374
                 },
                 "s5":{
-                    "clusters_total":NaN,
-                    "filtered_by_depth":NaN,
-                    "filtered_by_maxH":NaN,
+                    "clusters_total":216153.0,
+                    "filtered_by_depth":206611.0,
+                    "filtered_by_maxH":168.0,
                     "filtered_by_maxAlleles":NaN,
-                    "filtered_by_maxN":NaN,
-                    "reads_consens":NaN,
-                    "nsites":NaN,
-                    "nhetero":NaN,
-                    "heterozygosity":NaN
+                    "filtered_by_maxN":0.0,
+                    "reads_consens":6341.0,
+                    "nsites":1720192.0,
+                    "nhetero":7912.0,
+                    "heterozygosity":0.0045994865689411414
                 }
             },
             "stats":{
-                "state":3.0,
+                "state":6.0,
                 "reads_raw":1449142.0,
                 "reads_passed_filter":1410321.0,
                 "reads_merged":NaN,
@@ -2292,9 +2296,9 @@
                 "refseq_unmapped_reads":780391.0,
                 "clusters_total":216153.0,
                 "clusters_hidepth":12053.0,
-                "hetero_est":NaN,
-                "error_est":NaN,
-                "reads_consens":NaN
+                "hetero_est":0.016928782939910677,
+                "error_est":0.010515487527847374,
+                "reads_consens":6341.0
             },
             "depths":{
                 "1":132283,
@@ -2348,8 +2352,8 @@
                 "mapped_reads":[],
                 "unmapped_reads":[],
                 "clusters":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_clust_0.85/Guam_104461.clustS.gz",
-                "consens":[],
-                "database":[],
+                "consens":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Guam_104461.consens.bam",
+                "database":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Guam_104461.catg.hdf5",
                 "concat":[
                     {
                         "__tuple__":true,
@@ -2388,23 +2392,23 @@
                     "filtered_bad_align":NaN
                 },
                 "s4":{
-                    "hetero_est":NaN,
-                    "error_est":NaN
+                    "hetero_est":0.01467962312698342,
+                    "error_est":0.00889511656761172
                 },
                 "s5":{
-                    "clusters_total":NaN,
-                    "filtered_by_depth":NaN,
-                    "filtered_by_maxH":NaN,
+                    "clusters_total":85791.0,
+                    "filtered_by_depth":80919.0,
+                    "filtered_by_maxH":68.0,
                     "filtered_by_maxAlleles":NaN,
-                    "filtered_by_maxN":NaN,
-                    "reads_consens":NaN,
-                    "nsites":NaN,
-                    "nhetero":NaN,
-                    "heterozygosity":NaN
+                    "filtered_by_maxN":0.0,
+                    "reads_consens":4184.0,
+                    "nsites":1575677.0,
+                    "nhetero":8691.0,
+                    "heterozygosity":0.0055157243521356215
                 }
             },
             "stats":{
-                "state":3.0,
+                "state":6.0,
                 "reads_raw":6294242.0,
                 "reads_passed_filter":6286474.0,
                 "reads_merged":NaN,
@@ -2412,9 +2416,9 @@
                 "refseq_unmapped_reads":5930395.0,
                 "clusters_total":85791.0,
                 "clusters_hidepth":5334.0,
-                "hetero_est":NaN,
-                "error_est":NaN,
-                "reads_consens":NaN
+                "hetero_est":0.01467962312698342,
+                "error_est":0.00889511656761172,
+                "reads_consens":4184.0
             },
             "depths":{
                 "1":57870,
@@ -2468,8 +2472,8 @@
                 "mapped_reads":[],
                 "unmapped_reads":[],
                 "clusters":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_clust_0.85/13_TX2016_043.clustS.gz",
-                "consens":[],
-                "database":[],
+                "consens":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/13_TX2016_043.consens.bam",
+                "database":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/13_TX2016_043.catg.hdf5",
                 "concat":[
                     {
                         "__tuple__":true,
@@ -2508,23 +2512,23 @@
                     "filtered_bad_align":NaN
                 },
                 "s4":{
-                    "hetero_est":NaN,
-                    "error_est":NaN
+                    "hetero_est":0.015852514266967523,
+                    "error_est":0.010342416572570883
                 },
                 "s5":{
-                    "clusters_total":NaN,
-                    "filtered_by_depth":NaN,
-                    "filtered_by_maxH":NaN,
+                    "clusters_total":203003.0,
+                    "filtered_by_depth":194279.0,
+                    "filtered_by_maxH":153.0,
                     "filtered_by_maxAlleles":NaN,
-                    "filtered_by_maxN":NaN,
-                    "reads_consens":NaN,
-                    "nsites":NaN,
-                    "nhetero":NaN,
-                    "heterozygosity":NaN
+                    "filtered_by_maxN":0.0,
+                    "reads_consens":5782.0,
+                    "nsites":1648348.0,
+                    "nhetero":7766.0,
+                    "heterozygosity":0.004711383761196058
                 }
             },
             "stats":{
-                "state":3.0,
+                "state":6.0,
                 "reads_raw":2314090.0,
                 "reads_passed_filter":2276699.0,
                 "reads_merged":NaN,
@@ -2532,9 +2536,9 @@
                 "refseq_unmapped_reads":1686293.0,
                 "clusters_total":203003.0,
                 "clusters_hidepth":10849.0,
-                "hetero_est":NaN,
-                "error_est":NaN,
-                "reads_consens":NaN
+                "hetero_est":0.015852514266967523,
+                "error_est":0.010342416572570883,
+                "reads_consens":5782.0
             },
             "depths":{
                 "1":127486,
@@ -2588,8 +2592,8 @@
                 "mapped_reads":[],
                 "unmapped_reads":[],
                 "clusters":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_clust_0.85/59_TX2016_048.clustS.gz",
-                "consens":[],
-                "database":[],
+                "consens":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/59_TX2016_048.consens.bam",
+                "database":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/59_TX2016_048.catg.hdf5",
                 "concat":[
                     {
                         "__tuple__":true,
@@ -2628,23 +2632,23 @@
                     "filtered_bad_align":NaN
                 },
                 "s4":{
-                    "hetero_est":NaN,
-                    "error_est":NaN
+                    "hetero_est":0.010274623535573253,
+                    "error_est":0.011021954215318062
                 },
                 "s5":{
-                    "clusters_total":NaN,
-                    "filtered_by_depth":NaN,
-                    "filtered_by_maxH":NaN,
+                    "clusters_total":93409.0,
+                    "filtered_by_depth":90043.0,
+                    "filtered_by_maxH":42.0,
                     "filtered_by_maxAlleles":NaN,
-                    "filtered_by_maxN":NaN,
-                    "reads_consens":NaN,
-                    "nsites":NaN,
-                    "nhetero":NaN,
-                    "heterozygosity":NaN
+                    "filtered_by_maxN":0.0,
+                    "reads_consens":2622.0,
+                    "nsites":988159.0,
+                    "nhetero":4505.0,
+                    "heterozygosity":0.004558982916716844
                 }
             },
             "stats":{
-                "state":3.0,
+                "state":6.0,
                 "reads_raw":2508914.0,
                 "reads_passed_filter":2503578.0,
                 "reads_merged":NaN,
@@ -2652,9 +2656,9 @@
                 "refseq_unmapped_reads":2265793.0,
                 "clusters_total":93409.0,
                 "clusters_hidepth":3752.0,
-                "hetero_est":NaN,
-                "error_est":NaN,
-                "reads_consens":NaN
+                "hetero_est":0.010274623535573253,
+                "error_est":0.011021954215318062,
+                "reads_consens":2622.0
             },
             "depths":{
                 "1":66354,
@@ -2708,8 +2712,8 @@
                 "mapped_reads":[],
                 "unmapped_reads":[],
                 "clusters":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_clust_0.85/Bermuda_100.clustS.gz",
-                "consens":[],
-                "database":[],
+                "consens":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_100.consens.bam",
+                "database":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_100.catg.hdf5",
                 "concat":[
                     {
                         "__tuple__":true,
@@ -2748,23 +2752,23 @@
                     "filtered_bad_align":NaN
                 },
                 "s4":{
-                    "hetero_est":NaN,
-                    "error_est":NaN
+                    "hetero_est":0.010553056716918769,
+                    "error_est":0.007429150962829639
                 },
                 "s5":{
-                    "clusters_total":NaN,
-                    "filtered_by_depth":NaN,
-                    "filtered_by_maxH":NaN,
+                    "clusters_total":191361.0,
+                    "filtered_by_depth":179652.0,
+                    "filtered_by_maxH":120.0,
                     "filtered_by_maxAlleles":NaN,
-                    "filtered_by_maxN":NaN,
-                    "reads_consens":NaN,
-                    "nsites":NaN,
-                    "nhetero":NaN,
-                    "heterozygosity":NaN
+                    "filtered_by_maxN":0.0,
+                    "reads_consens":9722.0,
+                    "nsites":3546124.0,
+                    "nhetero":13415.0,
+                    "heterozygosity":0.003783003640030636
                 }
             },
             "stats":{
-                "state":3.0,
+                "state":6.0,
                 "reads_raw":13257461.0,
                 "reads_passed_filter":13232645.0,
                 "reads_merged":NaN,
@@ -2772,9 +2776,9 @@
                 "refseq_unmapped_reads":12453425.0,
                 "clusters_total":191361.0,
                 "clusters_hidepth":13577.0,
-                "hetero_est":NaN,
-                "error_est":NaN,
-                "reads_consens":NaN
+                "hetero_est":0.010553056716918769,
+                "error_est":0.007429150962829639,
+                "reads_consens":9722.0
             },
             "depths":{
                 "1":118793,
@@ -2828,8 +2832,8 @@
                 "mapped_reads":[],
                 "unmapped_reads":[],
                 "clusters":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_clust_0.85/Bermuda_85.clustS.gz",
-                "consens":[],
-                "database":[],
+                "consens":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_85.consens.bam",
+                "database":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_85.catg.hdf5",
                 "concat":[
                     {
                         "__tuple__":true,
@@ -2868,23 +2872,23 @@
                     "filtered_bad_align":NaN
                 },
                 "s4":{
-                    "hetero_est":NaN,
-                    "error_est":NaN
+                    "hetero_est":0.010652505934238169,
+                    "error_est":0.009438282269239477
                 },
                 "s5":{
-                    "clusters_total":NaN,
-                    "filtered_by_depth":NaN,
-                    "filtered_by_maxH":NaN,
+                    "clusters_total":107137.0,
+                    "filtered_by_depth":102200.0,
+                    "filtered_by_maxH":41.0,
                     "filtered_by_maxAlleles":NaN,
-                    "filtered_by_maxN":NaN,
-                    "reads_consens":NaN,
-                    "nsites":NaN,
-                    "nhetero":NaN,
-                    "heterozygosity":NaN
+                    "filtered_by_maxN":0.0,
+                    "reads_consens":4273.0,
+                    "nsites":1689346.0,
+                    "nhetero":6070.0,
+                    "heterozygosity":0.0035931064447425214
                 }
             },
             "stats":{
-                "state":3.0,
+                "state":6.0,
                 "reads_raw":1713390.0,
                 "reads_passed_filter":1709969.0,
                 "reads_merged":NaN,
@@ -2892,9 +2896,9 @@
                 "refseq_unmapped_reads":1382783.0,
                 "clusters_total":107137.0,
                 "clusters_hidepth":5721.0,
-                "hetero_est":NaN,
-                "error_est":NaN,
-                "reads_consens":NaN
+                "hetero_est":0.010652505934238169,
+                "error_est":0.009438282269239477,
+                "reads_consens":4273.0
             },
             "depths":{
                 "1":71405,
@@ -2948,8 +2952,8 @@
                 "mapped_reads":[],
                 "unmapped_reads":[],
                 "clusters":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_clust_0.85/Bermuda_103.clustS.gz",
-                "consens":[],
-                "database":[],
+                "consens":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_103.consens.bam",
+                "database":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_103.catg.hdf5",
                 "concat":[
                     {
                         "__tuple__":true,
@@ -2988,23 +2992,23 @@
                     "filtered_bad_align":NaN
                 },
                 "s4":{
-                    "hetero_est":NaN,
-                    "error_est":NaN
+                    "hetero_est":0.012236067652702161,
+                    "error_est":0.007637647593021442
                 },
                 "s5":{
-                    "clusters_total":NaN,
-                    "filtered_by_depth":NaN,
-                    "filtered_by_maxH":NaN,
+                    "clusters_total":160256.0,
+                    "filtered_by_depth":150309.0,
+                    "filtered_by_maxH":131.0,
                     "filtered_by_maxAlleles":NaN,
-                    "filtered_by_maxN":NaN,
-                    "reads_consens":NaN,
-                    "nsites":NaN,
-                    "nhetero":NaN,
-                    "heterozygosity":NaN
+                    "filtered_by_maxN":0.0,
+                    "reads_consens":7757.0,
+                    "nsites":2840112.0,
+                    "nhetero":10765.0,
+                    "heterozygosity":0.0037903434794120793
                 }
             },
             "stats":{
-                "state":3.0,
+                "state":6.0,
                 "reads_raw":2926800.0,
                 "reads_passed_filter":2886892.0,
                 "reads_merged":NaN,
@@ -3012,9 +3016,9 @@
                 "refseq_unmapped_reads":2167325.0,
                 "clusters_total":160256.0,
                 "clusters_hidepth":11729.0,
-                "hetero_est":NaN,
-                "error_est":NaN,
-                "reads_consens":NaN
+                "hetero_est":0.012236067652702161,
+                "error_est":0.007637647593021442,
+                "reads_consens":7757.0
             },
             "depths":{
                 "1":98618,
@@ -3068,8 +3072,8 @@
                 "mapped_reads":[],
                 "unmapped_reads":[],
                 "clusters":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_clust_0.85/Guam_104464.clustS.gz",
-                "consens":[],
-                "database":[],
+                "consens":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Guam_104464.consens.bam",
+                "database":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Guam_104464.catg.hdf5",
                 "concat":[
                     {
                         "__tuple__":true,
@@ -3108,23 +3112,23 @@
                     "filtered_bad_align":NaN
                 },
                 "s4":{
-                    "hetero_est":NaN,
-                    "error_est":NaN
+                    "hetero_est":0.01444804850220664,
+                    "error_est":0.007357450482249307
                 },
                 "s5":{
-                    "clusters_total":NaN,
-                    "filtered_by_depth":NaN,
-                    "filtered_by_maxH":NaN,
+                    "clusters_total":72260.0,
+                    "filtered_by_depth":67281.0,
+                    "filtered_by_maxH":79.0,
                     "filtered_by_maxAlleles":NaN,
-                    "filtered_by_maxN":NaN,
-                    "reads_consens":NaN,
-                    "nsites":NaN,
-                    "nhetero":NaN,
-                    "heterozygosity":NaN
+                    "filtered_by_maxN":0.0,
+                    "reads_consens":4359.0,
+                    "nsites":1713420.0,
+                    "nhetero":9004.0,
+                    "heterozygosity":0.005254987101819752
                 }
             },
             "stats":{
-                "state":3.0,
+                "state":6.0,
                 "reads_raw":3828726.0,
                 "reads_passed_filter":3824148.0,
                 "reads_merged":NaN,
@@ -3132,9 +3136,9 @@
                 "refseq_unmapped_reads":3467232.0,
                 "clusters_total":72260.0,
                 "clusters_hidepth":5287.0,
-                "hetero_est":NaN,
-                "error_est":NaN,
-                "reads_consens":NaN
+                "hetero_est":0.01444804850220664,
+                "error_est":0.007357450482249307,
+                "reads_consens":4359.0
             },
             "depths":{
                 "1":48608,
@@ -3188,8 +3192,8 @@
                 "mapped_reads":[],
                 "unmapped_reads":[],
                 "clusters":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_clust_0.85/Bermuda_94.clustS.gz",
-                "consens":[],
-                "database":[],
+                "consens":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_94.consens.bam",
+                "database":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_94.catg.hdf5",
                 "concat":[
                     {
                         "__tuple__":true,
@@ -3228,23 +3232,23 @@
                     "filtered_bad_align":NaN
                 },
                 "s4":{
-                    "hetero_est":NaN,
-                    "error_est":NaN
+                    "hetero_est":0.01100039482116677,
+                    "error_est":0.008792243385314955
                 },
                 "s5":{
-                    "clusters_total":NaN,
-                    "filtered_by_depth":NaN,
-                    "filtered_by_maxH":NaN,
+                    "clusters_total":115528.0,
+                    "filtered_by_depth":110055.0,
+                    "filtered_by_maxH":77.0,
                     "filtered_by_maxAlleles":NaN,
-                    "filtered_by_maxN":NaN,
-                    "reads_consens":NaN,
-                    "nsites":NaN,
-                    "nhetero":NaN,
-                    "heterozygosity":NaN
+                    "filtered_by_maxN":0.0,
+                    "reads_consens":4422.0,
+                    "nsites":1672642.0,
+                    "nhetero":5923.0,
+                    "heterozygosity":0.003541104432388999
                 }
             },
             "stats":{
-                "state":3.0,
+                "state":6.0,
                 "reads_raw":3481245.0,
                 "reads_passed_filter":3465535.0,
                 "reads_merged":NaN,
@@ -3252,9 +3256,9 @@
                 "refseq_unmapped_reads":3106043.0,
                 "clusters_total":115528.0,
                 "clusters_hidepth":6213.0,
-                "hetero_est":NaN,
-                "error_est":NaN,
-                "reads_consens":NaN
+                "hetero_est":0.01100039482116677,
+                "error_est":0.008792243385314955,
+                "reads_consens":4422.0
             },
             "depths":{
                 "1":77038,
@@ -3308,8 +3312,8 @@
                 "mapped_reads":[],
                 "unmapped_reads":[],
                 "clusters":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_clust_0.85/Guam_104465.clustS.gz",
-                "consens":[],
-                "database":[],
+                "consens":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Guam_104465.consens.bam",
+                "database":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Guam_104465.catg.hdf5",
                 "concat":[
                     {
                         "__tuple__":true,
@@ -3348,23 +3352,23 @@
                     "filtered_bad_align":NaN
                 },
                 "s4":{
-                    "hetero_est":NaN,
-                    "error_est":NaN
+                    "hetero_est":0.01642803153395635,
+                    "error_est":0.007687069466710146
                 },
                 "s5":{
-                    "clusters_total":NaN,
-                    "filtered_by_depth":NaN,
-                    "filtered_by_maxH":NaN,
+                    "clusters_total":160025.0,
+                    "filtered_by_depth":148397.0,
+                    "filtered_by_maxH":152.0,
                     "filtered_by_maxAlleles":NaN,
-                    "filtered_by_maxN":NaN,
-                    "reads_consens":NaN,
-                    "nsites":NaN,
-                    "nhetero":NaN,
-                    "heterozygosity":NaN
+                    "filtered_by_maxN":0.0,
+                    "reads_consens":9585.0,
+                    "nsites":3167727.0,
+                    "nhetero":18318.0,
+                    "heterozygosity":0.005782695289082676
                 }
             },
             "stats":{
-                "state":3.0,
+                "state":6.0,
                 "reads_raw":12720657.0,
                 "reads_passed_filter":12706334.0,
                 "reads_merged":NaN,
@@ -3372,9 +3376,9 @@
                 "refseq_unmapped_reads":11895066.0,
                 "clusters_total":160025.0,
                 "clusters_hidepth":13003.0,
-                "hetero_est":NaN,
-                "error_est":NaN,
-                "reads_consens":NaN
+                "hetero_est":0.01642803153395635,
+                "error_est":0.007687069466710146,
+                "reads_consens":9585.0
             },
             "depths":{
                 "1":99902,
@@ -3428,8 +3432,8 @@
                 "mapped_reads":[],
                 "unmapped_reads":[],
                 "clusters":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_clust_0.85/Bermuda_84.clustS.gz",
-                "consens":[],
-                "database":[],
+                "consens":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_84.consens.bam",
+                "database":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Bermuda_84.catg.hdf5",
                 "concat":[
                     {
                         "__tuple__":true,
@@ -3468,23 +3472,23 @@
                     "filtered_bad_align":NaN
                 },
                 "s4":{
-                    "hetero_est":NaN,
-                    "error_est":NaN
+                    "hetero_est":0.012200702667236047,
+                    "error_est":0.009674166488647523
                 },
                 "s5":{
-                    "clusters_total":NaN,
-                    "filtered_by_depth":NaN,
-                    "filtered_by_maxH":NaN,
+                    "clusters_total":198775.0,
+                    "filtered_by_depth":189663.0,
+                    "filtered_by_maxH":114.0,
                     "filtered_by_maxAlleles":NaN,
-                    "filtered_by_maxN":NaN,
-                    "reads_consens":NaN,
-                    "nsites":NaN,
-                    "nhetero":NaN,
-                    "heterozygosity":NaN
+                    "filtered_by_maxN":0.0,
+                    "reads_consens":6930.0,
+                    "nsites":2299620.0,
+                    "nhetero":9482.0,
+                    "heterozygosity":0.004123289934858803
                 }
             },
             "stats":{
-                "state":3.0,
+                "state":6.0,
                 "reads_raw":3229842.0,
                 "reads_passed_filter":3211476.0,
                 "reads_merged":NaN,
@@ -3492,9 +3496,9 @@
                 "refseq_unmapped_reads":2547451.0,
                 "clusters_total":198775.0,
                 "clusters_hidepth":11031.0,
-                "hetero_est":NaN,
-                "error_est":NaN,
-                "reads_consens":NaN
+                "hetero_est":0.012200702667236047,
+                "error_est":0.009674166488647523,
+                "reads_consens":6930.0
             },
             "depths":{
                 "1":126537,
@@ -3548,8 +3552,8 @@
                 "mapped_reads":[],
                 "unmapped_reads":[],
                 "clusters":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_clust_0.85/South_Africa.clustS.gz",
-                "consens":[],
-                "database":[],
+                "consens":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/South_Africa.consens.bam",
+                "database":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/South_Africa.catg.hdf5",
                 "concat":[
                     {
                         "__tuple__":true,
@@ -3588,23 +3592,23 @@
                     "filtered_bad_align":NaN
                 },
                 "s4":{
-                    "hetero_est":NaN,
-                    "error_est":NaN
+                    "hetero_est":0.015264160156249831,
+                    "error_est":0.007199951171875044
                 },
                 "s5":{
-                    "clusters_total":NaN,
-                    "filtered_by_depth":NaN,
-                    "filtered_by_maxH":NaN,
+                    "clusters_total":88315.0,
+                    "filtered_by_depth":83182.0,
+                    "filtered_by_maxH":63.0,
                     "filtered_by_maxAlleles":NaN,
-                    "filtered_by_maxN":NaN,
-                    "reads_consens":NaN,
-                    "nsites":NaN,
-                    "nhetero":NaN,
-                    "heterozygosity":NaN
+                    "filtered_by_maxN":0.0,
+                    "reads_consens":4250.0,
+                    "nsites":1466423.0,
+                    "nhetero":8013.0,
+                    "heterozygosity":0.005464316912650716
                 }
             },
             "stats":{
-                "state":3.0,
+                "state":6.0,
                 "reads_raw":6778201.0,
                 "reads_passed_filter":6766971.0,
                 "reads_merged":NaN,
@@ -3612,9 +3616,9 @@
                 "refseq_unmapped_reads":6300368.0,
                 "clusters_total":88315.0,
                 "clusters_hidepth":5621.0,
-                "hetero_est":NaN,
-                "error_est":NaN,
-                "reads_consens":NaN
+                "hetero_est":0.015264160156249831,
+                "error_est":0.007199951171875044,
+                "reads_consens":4250.0
             },
             "depths":{
                 "1":59349,
@@ -3668,8 +3672,8 @@
                 "mapped_reads":[],
                 "unmapped_reads":[],
                 "clusters":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_clust_0.85/82_TX2016_049.clustS.gz",
-                "consens":[],
-                "database":[],
+                "consens":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/82_TX2016_049.consens.bam",
+                "database":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/82_TX2016_049.catg.hdf5",
                 "concat":[
                     {
                         "__tuple__":true,
@@ -3708,23 +3712,23 @@
                     "filtered_bad_align":NaN
                 },
                 "s4":{
-                    "hetero_est":NaN,
-                    "error_est":NaN
+                    "hetero_est":0.010551853775977811,
+                    "error_est":0.009659562194347436
                 },
                 "s5":{
-                    "clusters_total":NaN,
-                    "filtered_by_depth":NaN,
-                    "filtered_by_maxH":NaN,
+                    "clusters_total":33984.0,
+                    "filtered_by_depth":32546.0,
+                    "filtered_by_maxH":13.0,
                     "filtered_by_maxAlleles":NaN,
-                    "filtered_by_maxN":NaN,
-                    "reads_consens":NaN,
-                    "nsites":NaN,
-                    "nhetero":NaN,
-                    "heterozygosity":NaN
+                    "filtered_by_maxN":0.0,
+                    "reads_consens":1282.0,
+                    "nsites":581414.0,
+                    "nhetero":2488.0,
+                    "heterozygosity":0.004279222722535061
                 }
             },
             "stats":{
-                "state":3.0,
+                "state":6.0,
                 "reads_raw":414245.0,
                 "reads_passed_filter":411433.0,
                 "reads_merged":NaN,
@@ -3732,9 +3736,9 @@
                 "refseq_unmapped_reads":320827.0,
                 "clusters_total":33984.0,
                 "clusters_hidepth":1540.0,
-                "hetero_est":NaN,
-                "error_est":NaN,
-                "reads_consens":NaN
+                "hetero_est":0.010551853775977811,
+                "error_est":0.009659562194347436,
+                "reads_consens":1282.0
             },
             "depths":{
                 "1":24803,
@@ -3788,8 +3792,8 @@
                 "mapped_reads":[],
                 "unmapped_reads":[],
                 "clusters":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_clust_0.85/Guam_104460.clustS.gz",
-                "consens":[],
-                "database":[],
+                "consens":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Guam_104460.consens.bam",
+                "database":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/Guam_104460.catg.hdf5",
                 "concat":[
                     {
                         "__tuple__":true,
@@ -3828,23 +3832,23 @@
                     "filtered_bad_align":NaN
                 },
                 "s4":{
-                    "hetero_est":NaN,
-                    "error_est":NaN
+                    "hetero_est":0.014548080444335766,
+                    "error_est":0.007499861145019583
                 },
                 "s5":{
-                    "clusters_total":NaN,
-                    "filtered_by_depth":NaN,
-                    "filtered_by_maxH":NaN,
+                    "clusters_total":90296.0,
+                    "filtered_by_depth":83571.0,
+                    "filtered_by_maxH":92.0,
                     "filtered_by_maxAlleles":NaN,
-                    "filtered_by_maxN":NaN,
-                    "reads_consens":NaN,
-                    "nsites":NaN,
-                    "nhetero":NaN,
-                    "heterozygosity":NaN
+                    "filtered_by_maxN":0.0,
+                    "reads_consens":5865.0,
+                    "nsites":2209623.0,
+                    "nhetero":11876.0,
+                    "heterozygosity":0.005374672512007704
                 }
             },
             "stats":{
-                "state":3.0,
+                "state":6.0,
                 "reads_raw":6935928.0,
                 "reads_passed_filter":6929513.0,
                 "reads_merged":NaN,
@@ -3852,9 +3856,9 @@
                 "refseq_unmapped_reads":6480949.0,
                 "clusters_total":90296.0,
                 "clusters_hidepth":7191.0,
-                "hetero_est":NaN,
-                "error_est":NaN,
-                "reads_consens":NaN
+                "hetero_est":0.014548080444335766,
+                "error_est":0.007499861145019583,
+                "reads_consens":5865.0
             },
             "depths":{
                 "1":58859,
@@ -3908,8 +3912,8 @@
                 "mapped_reads":[],
                 "unmapped_reads":[],
                 "clusters":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_clust_0.85/8_TX2017_028.clustS.gz",
-                "consens":[],
-                "database":[],
+                "consens":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/8_TX2017_028.consens.bam",
+                "database":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/8_TX2017_028.catg.hdf5",
                 "concat":[
                     {
                         "__tuple__":true,
@@ -3948,23 +3952,23 @@
                     "filtered_bad_align":NaN
                 },
                 "s4":{
-                    "hetero_est":NaN,
-                    "error_est":NaN
+                    "hetero_est":0.02034779453277564,
+                    "error_est":0.010031396007537916
                 },
                 "s5":{
-                    "clusters_total":NaN,
-                    "filtered_by_depth":NaN,
-                    "filtered_by_maxH":NaN,
+                    "clusters_total":436346.0,
+                    "filtered_by_depth":409833.0,
+                    "filtered_by_maxH":467.0,
                     "filtered_by_maxAlleles":NaN,
-                    "filtered_by_maxN":NaN,
-                    "reads_consens":NaN,
-                    "nsites":NaN,
-                    "nhetero":NaN,
-                    "heterozygosity":NaN
+                    "filtered_by_maxN":0.0,
+                    "reads_consens":16997.0,
+                    "nsites":4443070.0,
+                    "nhetero":22057.0,
+                    "heterozygosity":0.004964360228400633
                 }
             },
             "stats":{
-                "state":3.0,
+                "state":6.0,
                 "reads_raw":11423322.0,
                 "reads_passed_filter":11371391.0,
                 "reads_merged":NaN,
@@ -3972,9 +3976,9 @@
                 "refseq_unmapped_reads":9608706.0,
                 "clusters_total":436346.0,
                 "clusters_hidepth":38193.0,
-                "hetero_est":NaN,
-                "error_est":NaN,
-                "reads_consens":NaN
+                "hetero_est":0.02034779453277564,
+                "error_est":0.010031396007537916,
+                "reads_consens":16997.0
             },
             "depths":{
                 "1":231426,

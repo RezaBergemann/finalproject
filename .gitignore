@@ -4,8 +4,9 @@
 
 raw_data/
 reference/
-phy1_comp_refmapping/
-phy1_comp_edits/
+*_refmapping/
+*_comp_edits/
+*_clust_0.85/
 
 *err.txt
 *out.txt

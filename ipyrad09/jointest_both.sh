@@ -13,4 +13,4 @@ conda activate ipyrad09
 ipcluster start --n $SLURM_NTASKS --daemonize
 
 sleep 60
-ipyrad -p params-phys_both.txt -d -s 5 -f --ipcluster -c $(($SLURM_NTASKS))
+ipyrad -p params-phys_both.txt -d -s 4 -f --ipcluster -c $(($SLURM_NTASKS))
