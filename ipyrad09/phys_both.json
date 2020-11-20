@@ -8,7 +8,7 @@
             "clusts":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_clust_0.85",
             "consens":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens",
             "across":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_across",
-            "outfiles":"",
+            "outfiles":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_outfiles",
             "refmapping":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_refmapping"
         },
         "paramsdict":{
@@ -139,7 +139,11 @@
         "database":"",
         "clust_database":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_across/phys_both_clust_database.fa",
         "outfiles":{
-            "loci":""
+            "loci":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_outfiles/phys_both.loci",
+            "snps":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_outfiles/phys_both.snps",
+            "snpsmap":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_outfiles/phys_both.snpsmap",
+            "phy":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_outfiles/phys_both.phy",
+            "phymap":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_outfiles/phys_both.phymap"
         },
         "barcodes":{},
         "stats_files":{
@@ -147,7 +151,7 @@
             "s4":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_clust_0.85/s4_joint_estimate.txt",
             "s5":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_consens/s5_consens_stats.txt",
             "s6":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_across/phys_both_clust_database.fa",
-            "s7":""
+            "s7":"/gpfs/ysm/scratch60/dunn/rb956/finalproject/ipyrad09/phys_both_outfiles/phys_both_stats.txt"
         },
         "hackersonly":{
             "random_seed":42,

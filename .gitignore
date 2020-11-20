@@ -7,6 +7,12 @@ reference/
 *_refmapping/
 *_comp_edits/
 *_clust_0.85/
+*-tmpdir/
+*_across/
+*_consens/
+*_outfiles/
+
+
 
 *err.txt
 *out.txt
