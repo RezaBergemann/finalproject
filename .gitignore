@@ -1,5 +1,3 @@
-*.json
-
 *fastqs/
 
 raw_data/
@@ -11,11 +9,11 @@ reference/
 *_across/
 *_consens/
 *_outfiles/
-
+*.ipynb_checkpoints/
 
 
 *err.txt
 *out.txt
 
 *.fastq.gz
-
+*.json
