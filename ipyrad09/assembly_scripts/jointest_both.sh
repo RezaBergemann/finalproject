@@ -1,11 +1,11 @@
 #!/bin/bash
-#SBATCH --job-name=consensus_both
+#SBATCH --job-name=jointest_both
 #SBATCH --time=1-
 #SBATCH --ntasks=18
 #SBATCH --mem-per-cpu=16G
 #SBATCH --cpus-per-task=2
-#SBATCH --output=consensus_both_out.txt
-#SBATCH --error=consensus_both_err.txt
+#SBATCH --output=jointest_both_out.txt
+#SBATCH --error=jointest_both_err.txt
 
 module load miniconda
 conda activate ipyrad09
