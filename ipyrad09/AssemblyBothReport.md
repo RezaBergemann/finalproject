@@ -38,23 +38,8 @@ p, s, l                        ## [27] [output_formats]: Output formats (see doc
 
 ## Results
 
-
-```python
-from IPython.display import display, Markdown
-import numpy as np
-import matplotlib.pyplot as plt
-import pandas as pd
-```
-
 ### Tables
 Table 1: Reference-based Assembly Results
-
-
-```python
-assembly = pd.read_csv("assembly_both_stats.csv", header=0, index_col = 0)
-assembly = assembly.drop(columns = ['state', 'reads_raw', 'refseq_unmapped_reads'])
-display(Markdown(assembly.to_markdown()))
-```
 
 
 | sample        |   reads_passed_filter |   refseq_mapped_reads |   clusters_total |   clusters_hidepth |   hetero_est |   error_est |   reads_consens |   loci_in_assembly |
@@ -96,12 +81,6 @@ display(Markdown(assembly.to_markdown()))
 Table 2: Reference-based Assembly Summary States
 
 
-```python
-tmp = assembly.describe().drop(index = "count").reset_index().rename(columns = {"index":"stat"}).set_index("stat")
-display(Markdown(tmp.to_markdown()))
-```
-
-
 | stat   |   reads_passed_filter |   refseq_mapped_reads |   clusters_total |   clusters_hidepth |   hetero_est |   error_est |   reads_consens |   loci_in_assembly |
 |:-------|----------------------:|----------------------:|-----------------:|-------------------:|-------------:|------------:|----------------:|-------------------:|
 | mean   |           4.64307e+06 |      588579           |         157156   |           10555.1  |   0.0138637  |  0.00896553 |         6358.41 |            3906.31 |
@@ -114,13 +93,6 @@ display(Markdown(tmp.to_markdown()))
 
 
 
-```python
-tlens = pd.read_csv("phys_both_consens/TLENs.csv",header=None, names =["Template", "Sample", "Obs_TLEN"])
-tmp = tlens.describe().drop(index = "count").reset_index().rename(columns = {"index":"stat"}).set_index("stat")
-display(Markdown(tmp.to_markdown()))
-```
-
-
 | stat   |   Template |   Obs_TLEN |
 |:-------|-----------:|-----------:|
 | mean   |    4131.19 |    377.955 |
@@ -131,15 +103,6 @@ display(Markdown(tmp.to_markdown()))
 | 75%    |    5635    |    504     |
 | max    |   16997    |   3137     |
 
-
-
-```python
-tlens_pivot = tlens.pivot_table(columns = ["Sample"], values = ["Obs_TLEN"], index = ["Template"])
-tlens_pivot.columns = assembly.index
-
-tlens_pivot_stats = tlens_pivot.describe().transpose().reset_index().set_index("sample")
-display(Markdown(tlens_pivot_stats.to_markdown()))
-```
 
 
 | sample        |   count |    mean |     std |   min |    25% |   50% |   75% |   max |
@@ -179,31 +142,6 @@ display(Markdown(tlens_pivot_stats.to_markdown()))
 
 
 
-```python
-fig, [ax1, ax2] = plt.subplots(figsize=(16,24),nrows = 2)
-ypos = np.arange(len(assembly)) + 1
-
-ax1.hlines(ypos, 0, assembly["reads_passed_filter"], color='lightblue')  # Stems
-ax1.plot(assembly["reads_passed_filter"], ypos, 'o')  # Stem ends
-ax1.set_yticks(ypos)
-ax1.set_yticklabels(assembly.index)
-
-ax1.set_ylabel("Sample ID")
-ax1.set_xlabel("Reads Passed Filter")
-
-ax2.hlines(ypos, 0, assembly["reads_consens"], color='lightblue')  # Stems
-ax2.plot(assembly["reads_consens"], ypos, 'o')  # Stem ends
-ax2.set_yticks(ypos)
-ax2.set_yticklabels(assembly.index)
-
-ax2.set_ylabel("Sample ID")
-ax2.set_xlabel("Consensus Reads")
-
-
-
-```
-
-
 
 
     Text(0.5, 0, 'Consensus Reads')
@@ -215,21 +153,6 @@ ax2.set_xlabel("Consensus Reads")
 ![png](AssemblyBothReport_files/AssemblyBothReport_10_1.png)
     
 
-
-
-```python
-xpos = np.arange(len(assembly.index))
-
-fig, ax = plt.subplots(figsize = (16,12))
-
-ax.bar(xpos, tlens_pivot_stats['mean'])
-ax.set_xticks(xpos)
-ax.set_xticklabels(assembly.index)
-plt.xticks(rotation=45) 
-
-ax.set_xlabel("Sample ID")
-ax.set_ylabel("Template Length")
-```
 
 
 
