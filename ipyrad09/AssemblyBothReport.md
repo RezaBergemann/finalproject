@@ -53,7 +53,7 @@ Table 1: Reference-based Assembly Results
 ```python
 assembly = pd.read_csv("assembly_both_stats.csv", header=0, index_col = 0)
 assembly = assembly.drop(columns = ['state', 'reads_raw', 'refseq_unmapped_reads'])
-display(Markdown(assembly.to_markdown()))
+assembly
 ```
 
 
@@ -97,7 +97,7 @@ Table 2: Reference-based Assembly Summary States
 
 
 ```python
-display(Markdown(assembly.describe().drop(index = "count").to_markdown()))
+assembly.describe().drop(index = "count")
 ```
 
 
@@ -218,7 +218,7 @@ display(Markdown(assembly.describe().drop(index = "count").to_markdown()))
 
 ```python
 tlens = pd.read_csv("phys_both_consens/TLENs.csv",header=None, names =["Template", "Sample", "Obs_TLEN"])
-display(Markdown(tlens.describe().drop(index = "count").to_markdown()))
+tlens.describe().drop(index = "count")
 ```
 
 
@@ -294,7 +294,7 @@ tlens_pivot = tlens.pivot_table(columns = ["Sample"], values = ["Obs_TLEN"], ind
 tlens_pivot.columns = assembly.index
 
 tlens_pivot_stats = tlens_pivot.describe().transpose()
-display(Markdown(tlens_pivot_stats.to_markdown()))
+tlens_pivot_stats
 ```
 
 
