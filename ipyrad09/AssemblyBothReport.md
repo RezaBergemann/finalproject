@@ -57,50 +57,6 @@ assembly
 ```
 
 
-| sample        |   reads_passed_filter |   refseq_mapped_reads |   clusters_total |   clusters_hidepth |   hetero_est |   error_est |   reads_consens |   loci_in_assembly |
-|:--------------|----------------------:|----------------------:|-----------------:|-------------------:|-------------:|------------:|----------------:|-------------------:|
-| 13_TX2016_043 |           2.2767e+06  |      590406           |           203003 |              10849 |     0.015853 |    0.010342 |            5782 |               3895 |
-| 42_TX2016_046 |           2.6215e+06  |      262858           |            99758 |               4305 |     0.012114 |    0.009876 |            3110 |               2236 |
-| 59_TX2016_048 |           2.50358e+06 |      237785           |            93409 |               3752 |     0.010275 |    0.011022 |            2622 |               1893 |
-| 6_TX2017_027  |           1.41032e+06 |      629930           |           216153 |              12053 |     0.016929 |    0.010515 |            6341 |               3964 |
-| 82_TX2016_049 |      411433           |       90606           |            33984 |               1540 |     0.010552 |    0.00966  |            1282 |                907 |
-| 8_TX2017_028  |           1.13714e+07 |           1.76268e+06 |           436346 |              38193 |     0.020348 |    0.010031 |           16997 |               8083 |
-| Bermuda_100   |           1.32326e+07 |      779220           |           191361 |              13577 |     0.010553 |    0.007429 |            9722 |               6183 |
-| Bermuda_103   |           2.88689e+06 |      719567           |           160256 |              11729 |     0.012236 |    0.007638 |            7757 |               5431 |
-| Bermuda_15    |           2.58688e+06 |      457198           |           120439 |               8626 |     0.012143 |    0.00707  |            5641 |               3928 |
-| Bermuda_19    |           1.48893e+06 |      593382           |           190964 |              10826 |     0.022148 |    0.010936 |            4390 |               2200 |
-| Bermuda_28    |           5.46699e+06 |      324328           |           115132 |               5447 |     0.014018 |    0.009286 |            3339 |               2217 |
-| Bermuda_30    |           2.90583e+06 |      670183           |           163859 |              11714 |     0.013441 |    0.00796  |            6880 |               4669 |
-| Bermuda_54    |           3.88378e+06 |      290566           |           114925 |               4860 |     0.015167 |    0.011542 |            2753 |               1783 |
-| Bermuda_55    |           6.54616e+06 |           1.53062e+06 |           313869 |              30146 |     0.018823 |    0.006847 |           15056 |               8339 |
-| Bermuda_63    |           1.78458e+06 |      488101           |           124526 |               8340 |     0.011183 |    0.009127 |            4987 |               3574 |
-| Bermuda_65    |           2.96695e+06 |      412329           |           127306 |               7892 |     0.011476 |    0.008933 |            5348 |               3822 |
-| Bermuda_67    |           6.6299e+06  |      905787           |           210977 |              19199 |     0.012225 |    0.007461 |           13033 |               6515 |
-| Bermuda_68    |           3.96649e+06 |      619371           |           187468 |              11088 |     0.013569 |    0.009433 |            6487 |               4569 |
-| Bermuda_69    |           8.98048e+06 |      885365           |           238693 |              16022 |     0.01436  |    0.00831  |            9339 |               6194 |
-| Bermuda_79    |           3.43366e+06 |      271141           |           108421 |               4103 |     0.013827 |    0.012212 |            2428 |               1558 |
-| Bermuda_8     |           1.88972e+06 |      609756           |           145454 |              10556 |     0.012896 |    0.007998 |            6703 |               4732 |
-| Bermuda_80    |           1.01372e+07 |      457497           |           159280 |               8152 |     0.011536 |    0.010488 |            5069 |               3426 |
-| Bermuda_81    |           1.75483e+06 |      708054           |           178380 |              12500 |     0.014281 |    0.009211 |            6936 |               4557 |
-| Bermuda_83    |           2.54108e+06 |      747667           |           176898 |              12892 |     0.014463 |    0.007027 |            7599 |               5229 |
-| Bermuda_84    |           3.21148e+06 |      664025           |           198775 |              11031 |     0.012201 |    0.009674 |            6930 |               4970 |
-| Bermuda_85    |           1.70997e+06 |      327186           |           107137 |               5721 |     0.010653 |    0.009438 |            4273 |               3140 |
-| Bermuda_94    |           3.46554e+06 |      359492           |           115528 |               6213 |     0.011    |    0.008792 |            4422 |               3336 |
-| Guam_104460   |           6.92951e+06 |      448564           |            90296 |               7191 |     0.014548 |    0.0075   |            5865 |               3000 |
-| Guam_104461   |           6.28647e+06 |      356079           |            85791 |               5334 |     0.01468  |    0.008895 |            4184 |               2303 |
-| Guam_104464   |           3.82415e+06 |      356916           |            72260 |               5287 |     0.014448 |    0.007357 |            4359 |               2344 |
-| Guam_104465   |           1.27063e+07 |      811268           |           160025 |              13003 |     0.016428 |    0.007687 |            9585 |               4235 |
-| South_Africa  |           6.76697e+06 |      466603           |            88315 |               5621 |     0.015264 |    0.0072   |            4250 |               1770 |
-
-
-Table 2: Reference-based Assembly Summary States
-
-
-```python
-assembly.describe().drop(index = "count")
-```
-
-
 
 
 <div>
@@ -130,84 +86,370 @@ assembly.describe().drop(index = "count")
       <th>reads_consens</th>
       <th>loci_in_assembly</th>
     </tr>
+    <tr>
+      <th>sample</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
   </thead>
   <tbody>
     <tr>
-      <th>mean</th>
-      <td>4.643073e+06</td>
-      <td>5.885792e+05</td>
-      <td>157155.875000</td>
-      <td>10555.062500</td>
-      <td>0.013864</td>
-      <td>0.008966</td>
-      <td>6358.406250</td>
-      <td>3906.312500</td>
+      <th>13_TX2016_043</th>
+      <td>2276699</td>
+      <td>590406</td>
+      <td>203003</td>
+      <td>10849</td>
+      <td>0.015853</td>
+      <td>0.010342</td>
+      <td>5782</td>
+      <td>3895</td>
     </tr>
     <tr>
-      <th>std</th>
-      <td>3.422796e+06</td>
-      <td>3.449160e+05</td>
-      <td>76441.918347</td>
-      <td>7412.785041</td>
-      <td>0.002829</td>
-      <td>0.001455</td>
-      <td>3534.143341</td>
-      <td>1840.792474</td>
+      <th>42_TX2016_046</th>
+      <td>2621504</td>
+      <td>262858</td>
+      <td>99758</td>
+      <td>4305</td>
+      <td>0.012114</td>
+      <td>0.009876</td>
+      <td>3110</td>
+      <td>2236</td>
     </tr>
     <tr>
-      <th>min</th>
-      <td>4.114330e+05</td>
-      <td>9.060600e+04</td>
-      <td>33984.000000</td>
-      <td>1540.000000</td>
+      <th>59_TX2016_048</th>
+      <td>2503578</td>
+      <td>237785</td>
+      <td>93409</td>
+      <td>3752</td>
       <td>0.010275</td>
-      <td>0.006847</td>
-      <td>1282.000000</td>
-      <td>907.000000</td>
+      <td>0.011022</td>
+      <td>2622</td>
+      <td>1893</td>
     </tr>
     <tr>
-      <th>25%</th>
-      <td>2.446858e+06</td>
-      <td>3.567068e+05</td>
-      <td>108100.000000</td>
-      <td>5577.500000</td>
-      <td>0.011969</td>
-      <td>0.007604</td>
-      <td>4267.250000</td>
-      <td>2286.250000</td>
+      <th>6_TX2017_027</th>
+      <td>1410321</td>
+      <td>629930</td>
+      <td>216153</td>
+      <td>12053</td>
+      <td>0.016929</td>
+      <td>0.010515</td>
+      <td>6341</td>
+      <td>3964</td>
     </tr>
     <tr>
-      <th>50%</th>
-      <td>3.322566e+06</td>
-      <td>5.392535e+05</td>
-      <td>152367.000000</td>
-      <td>9591.000000</td>
-      <td>0.013698</td>
-      <td>0.009030</td>
-      <td>5711.500000</td>
-      <td>3858.500000</td>
+      <th>82_TX2016_049</th>
+      <td>411433</td>
+      <td>90606</td>
+      <td>33984</td>
+      <td>1540</td>
+      <td>0.010552</td>
+      <td>0.009660</td>
+      <td>1282</td>
+      <td>907</td>
     </tr>
     <tr>
-      <th>75%</th>
-      <td>6.567094e+06</td>
-      <td>7.109322e+05</td>
-      <td>191063.250000</td>
-      <td>12164.750000</td>
-      <td>0.014802</td>
-      <td>0.009915</td>
-      <td>7101.750000</td>
-      <td>4791.500000</td>
+      <th>8_TX2017_028</th>
+      <td>11371391</td>
+      <td>1762685</td>
+      <td>436346</td>
+      <td>38193</td>
+      <td>0.020348</td>
+      <td>0.010031</td>
+      <td>16997</td>
+      <td>8083</td>
     </tr>
     <tr>
-      <th>max</th>
-      <td>1.323264e+07</td>
-      <td>1.762685e+06</td>
-      <td>436346.000000</td>
-      <td>38193.000000</td>
+      <th>Bermuda_100</th>
+      <td>13232645</td>
+      <td>779220</td>
+      <td>191361</td>
+      <td>13577</td>
+      <td>0.010553</td>
+      <td>0.007429</td>
+      <td>9722</td>
+      <td>6183</td>
+    </tr>
+    <tr>
+      <th>Bermuda_103</th>
+      <td>2886892</td>
+      <td>719567</td>
+      <td>160256</td>
+      <td>11729</td>
+      <td>0.012236</td>
+      <td>0.007638</td>
+      <td>7757</td>
+      <td>5431</td>
+    </tr>
+    <tr>
+      <th>Bermuda_15</th>
+      <td>2586881</td>
+      <td>457198</td>
+      <td>120439</td>
+      <td>8626</td>
+      <td>0.012143</td>
+      <td>0.007070</td>
+      <td>5641</td>
+      <td>3928</td>
+    </tr>
+    <tr>
+      <th>Bermuda_19</th>
+      <td>1488934</td>
+      <td>593382</td>
+      <td>190964</td>
+      <td>10826</td>
       <td>0.022148</td>
+      <td>0.010936</td>
+      <td>4390</td>
+      <td>2200</td>
+    </tr>
+    <tr>
+      <th>Bermuda_28</th>
+      <td>5466992</td>
+      <td>324328</td>
+      <td>115132</td>
+      <td>5447</td>
+      <td>0.014018</td>
+      <td>0.009286</td>
+      <td>3339</td>
+      <td>2217</td>
+    </tr>
+    <tr>
+      <th>Bermuda_30</th>
+      <td>2905831</td>
+      <td>670183</td>
+      <td>163859</td>
+      <td>11714</td>
+      <td>0.013441</td>
+      <td>0.007960</td>
+      <td>6880</td>
+      <td>4669</td>
+    </tr>
+    <tr>
+      <th>Bermuda_54</th>
+      <td>3883780</td>
+      <td>290566</td>
+      <td>114925</td>
+      <td>4860</td>
+      <td>0.015167</td>
+      <td>0.011542</td>
+      <td>2753</td>
+      <td>1783</td>
+    </tr>
+    <tr>
+      <th>Bermuda_55</th>
+      <td>6546158</td>
+      <td>1530619</td>
+      <td>313869</td>
+      <td>30146</td>
+      <td>0.018823</td>
+      <td>0.006847</td>
+      <td>15056</td>
+      <td>8339</td>
+    </tr>
+    <tr>
+      <th>Bermuda_63</th>
+      <td>1784583</td>
+      <td>488101</td>
+      <td>124526</td>
+      <td>8340</td>
+      <td>0.011183</td>
+      <td>0.009127</td>
+      <td>4987</td>
+      <td>3574</td>
+    </tr>
+    <tr>
+      <th>Bermuda_65</th>
+      <td>2966949</td>
+      <td>412329</td>
+      <td>127306</td>
+      <td>7892</td>
+      <td>0.011476</td>
+      <td>0.008933</td>
+      <td>5348</td>
+      <td>3822</td>
+    </tr>
+    <tr>
+      <th>Bermuda_67</th>
+      <td>6629904</td>
+      <td>905787</td>
+      <td>210977</td>
+      <td>19199</td>
+      <td>0.012225</td>
+      <td>0.007461</td>
+      <td>13033</td>
+      <td>6515</td>
+    </tr>
+    <tr>
+      <th>Bermuda_68</th>
+      <td>3966491</td>
+      <td>619371</td>
+      <td>187468</td>
+      <td>11088</td>
+      <td>0.013569</td>
+      <td>0.009433</td>
+      <td>6487</td>
+      <td>4569</td>
+    </tr>
+    <tr>
+      <th>Bermuda_69</th>
+      <td>8980480</td>
+      <td>885365</td>
+      <td>238693</td>
+      <td>16022</td>
+      <td>0.014360</td>
+      <td>0.008310</td>
+      <td>9339</td>
+      <td>6194</td>
+    </tr>
+    <tr>
+      <th>Bermuda_79</th>
+      <td>3433656</td>
+      <td>271141</td>
+      <td>108421</td>
+      <td>4103</td>
+      <td>0.013827</td>
       <td>0.012212</td>
-      <td>16997.000000</td>
-      <td>8339.000000</td>
+      <td>2428</td>
+      <td>1558</td>
+    </tr>
+    <tr>
+      <th>Bermuda_8</th>
+      <td>1889715</td>
+      <td>609756</td>
+      <td>145454</td>
+      <td>10556</td>
+      <td>0.012896</td>
+      <td>0.007998</td>
+      <td>6703</td>
+      <td>4732</td>
+    </tr>
+    <tr>
+      <th>Bermuda_80</th>
+      <td>10137179</td>
+      <td>457497</td>
+      <td>159280</td>
+      <td>8152</td>
+      <td>0.011536</td>
+      <td>0.010488</td>
+      <td>5069</td>
+      <td>3426</td>
+    </tr>
+    <tr>
+      <th>Bermuda_81</th>
+      <td>1754828</td>
+      <td>708054</td>
+      <td>178380</td>
+      <td>12500</td>
+      <td>0.014281</td>
+      <td>0.009211</td>
+      <td>6936</td>
+      <td>4557</td>
+    </tr>
+    <tr>
+      <th>Bermuda_83</th>
+      <td>2541077</td>
+      <td>747667</td>
+      <td>176898</td>
+      <td>12892</td>
+      <td>0.014463</td>
+      <td>0.007027</td>
+      <td>7599</td>
+      <td>5229</td>
+    </tr>
+    <tr>
+      <th>Bermuda_84</th>
+      <td>3211476</td>
+      <td>664025</td>
+      <td>198775</td>
+      <td>11031</td>
+      <td>0.012201</td>
+      <td>0.009674</td>
+      <td>6930</td>
+      <td>4970</td>
+    </tr>
+    <tr>
+      <th>Bermuda_85</th>
+      <td>1709969</td>
+      <td>327186</td>
+      <td>107137</td>
+      <td>5721</td>
+      <td>0.010653</td>
+      <td>0.009438</td>
+      <td>4273</td>
+      <td>3140</td>
+    </tr>
+    <tr>
+      <th>Bermuda_94</th>
+      <td>3465535</td>
+      <td>359492</td>
+      <td>115528</td>
+      <td>6213</td>
+      <td>0.011000</td>
+      <td>0.008792</td>
+      <td>4422</td>
+      <td>3336</td>
+    </tr>
+    <tr>
+      <th>Guam_104460</th>
+      <td>6929513</td>
+      <td>448564</td>
+      <td>90296</td>
+      <td>7191</td>
+      <td>0.014548</td>
+      <td>0.007500</td>
+      <td>5865</td>
+      <td>3000</td>
+    </tr>
+    <tr>
+      <th>Guam_104461</th>
+      <td>6286474</td>
+      <td>356079</td>
+      <td>85791</td>
+      <td>5334</td>
+      <td>0.014680</td>
+      <td>0.008895</td>
+      <td>4184</td>
+      <td>2303</td>
+    </tr>
+    <tr>
+      <th>Guam_104464</th>
+      <td>3824148</td>
+      <td>356916</td>
+      <td>72260</td>
+      <td>5287</td>
+      <td>0.014448</td>
+      <td>0.007357</td>
+      <td>4359</td>
+      <td>2344</td>
+    </tr>
+    <tr>
+      <th>Guam_104465</th>
+      <td>12706334</td>
+      <td>811268</td>
+      <td>160025</td>
+      <td>13003</td>
+      <td>0.016428</td>
+      <td>0.007687</td>
+      <td>9585</td>
+      <td>4235</td>
+    </tr>
+    <tr>
+      <th>South_Africa</th>
+      <td>6766971</td>
+      <td>466603</td>
+      <td>88315</td>
+      <td>5621</td>
+      <td>0.015264</td>
+      <td>0.007200</td>
+      <td>4250</td>
+      <td>1770</td>
     </tr>
   </tbody>
 </table>
@@ -215,10 +457,11 @@ assembly.describe().drop(index = "count")
 
 
 
+Table 2: Reference-based Assembly Summary States
+
 
 ```python
-tlens = pd.read_csv("phys_both_consens/TLENs.csv",header=None, names =["Template", "Sample", "Obs_TLEN"])
-tlens.describe().drop(index = "count")
+assembly.describe().drop(index = "count").reset_index().rename(columns = {"index":"stat"})
 ```
 
 
@@ -242,43 +485,180 @@ tlens.describe().drop(index = "count")
   <thead>
     <tr style="text-align: right;">
       <th></th>
+      <th>stat</th>
+      <th>reads_passed_filter</th>
+      <th>refseq_mapped_reads</th>
+      <th>clusters_total</th>
+      <th>clusters_hidepth</th>
+      <th>hetero_est</th>
+      <th>error_est</th>
+      <th>reads_consens</th>
+      <th>loci_in_assembly</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>mean</td>
+      <td>4.643073e+06</td>
+      <td>5.885792e+05</td>
+      <td>157155.875000</td>
+      <td>10555.062500</td>
+      <td>0.013864</td>
+      <td>0.008966</td>
+      <td>6358.406250</td>
+      <td>3906.312500</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>std</td>
+      <td>3.422796e+06</td>
+      <td>3.449160e+05</td>
+      <td>76441.918347</td>
+      <td>7412.785041</td>
+      <td>0.002829</td>
+      <td>0.001455</td>
+      <td>3534.143341</td>
+      <td>1840.792474</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>min</td>
+      <td>4.114330e+05</td>
+      <td>9.060600e+04</td>
+      <td>33984.000000</td>
+      <td>1540.000000</td>
+      <td>0.010275</td>
+      <td>0.006847</td>
+      <td>1282.000000</td>
+      <td>907.000000</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>25%</td>
+      <td>2.446858e+06</td>
+      <td>3.567068e+05</td>
+      <td>108100.000000</td>
+      <td>5577.500000</td>
+      <td>0.011969</td>
+      <td>0.007604</td>
+      <td>4267.250000</td>
+      <td>2286.250000</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>50%</td>
+      <td>3.322566e+06</td>
+      <td>5.392535e+05</td>
+      <td>152367.000000</td>
+      <td>9591.000000</td>
+      <td>0.013698</td>
+      <td>0.009030</td>
+      <td>5711.500000</td>
+      <td>3858.500000</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>75%</td>
+      <td>6.567094e+06</td>
+      <td>7.109322e+05</td>
+      <td>191063.250000</td>
+      <td>12164.750000</td>
+      <td>0.014802</td>
+      <td>0.009915</td>
+      <td>7101.750000</td>
+      <td>4791.500000</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>max</td>
+      <td>1.323264e+07</td>
+      <td>1.762685e+06</td>
+      <td>436346.000000</td>
+      <td>38193.000000</td>
+      <td>0.022148</td>
+      <td>0.012212</td>
+      <td>16997.000000</td>
+      <td>8339.000000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```python
+tlens = pd.read_csv("phys_both_consens/TLENs.csv",header=None, names =["Template", "Sample", "Obs_TLEN"])
+tlens.describe().drop(index = "count").reset_index().rename(columns = {"index":"stat"}).se
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>index</th>
       <th>Template</th>
       <th>Obs_TLEN</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>mean</th>
+      <th>0</th>
+      <td>mean</td>
       <td>4131.187734</td>
       <td>377.954804</td>
     </tr>
     <tr>
-      <th>std</th>
+      <th>1</th>
+      <td>std</td>
       <td>3398.281958</td>
       <td>357.845068</td>
     </tr>
     <tr>
-      <th>min</th>
+      <th>2</th>
+      <td>min</td>
       <td>1.000000</td>
       <td>35.000000</td>
     </tr>
     <tr>
-      <th>25%</th>
+      <th>3</th>
+      <td>25%</td>
       <td>1600.000000</td>
       <td>101.000000</td>
     </tr>
     <tr>
-      <th>50%</th>
+      <th>4</th>
+      <td>50%</td>
       <td>3317.000000</td>
       <td>415.000000</td>
     </tr>
     <tr>
-      <th>75%</th>
+      <th>5</th>
+      <td>75%</td>
       <td>5635.000000</td>
       <td>504.000000</td>
     </tr>
     <tr>
-      <th>max</th>
+      <th>6</th>
+      <td>max</td>
       <td>16997.000000</td>
       <td>3137.000000</td>
     </tr>
@@ -293,7 +673,7 @@ tlens.describe().drop(index = "count")
 tlens_pivot = tlens.pivot_table(columns = ["Sample"], values = ["Obs_TLEN"], index = ["Template"])
 tlens_pivot.columns = assembly.index
 
-tlens_pivot_stats = tlens_pivot.describe().transpose()
+tlens_pivot_stats = tlens_pivot.describe().transpose().reset_index()
 tlens_pivot_stats
 ```
 
@@ -318,6 +698,7 @@ tlens_pivot_stats
   <thead>
     <tr style="text-align: right;">
       <th></th>
+      <th>sample</th>
       <th>count</th>
       <th>mean</th>
       <th>std</th>
@@ -327,21 +708,11 @@ tlens_pivot_stats
       <th>75%</th>
       <th>max</th>
     </tr>
-    <tr>
-      <th>sample</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
   </thead>
   <tbody>
     <tr>
-      <th>13_TX2016_043</th>
+      <th>0</th>
+      <td>13_TX2016_043</td>
       <td>5782.0</td>
       <td>328.951574</td>
       <td>354.429483</td>
@@ -352,7 +723,8 @@ tlens_pivot_stats
       <td>3137.0</td>
     </tr>
     <tr>
-      <th>42_TX2016_046</th>
+      <th>1</th>
+      <td>42_TX2016_046</td>
       <td>3110.0</td>
       <td>447.880386</td>
       <td>404.640167</td>
@@ -363,7 +735,8 @@ tlens_pivot_stats
       <td>3137.0</td>
     </tr>
     <tr>
-      <th>59_TX2016_048</th>
+      <th>2</th>
+      <td>59_TX2016_048</td>
       <td>2622.0</td>
       <td>427.740656</td>
       <td>381.206150</td>
@@ -374,7 +747,8 @@ tlens_pivot_stats
       <td>3137.0</td>
     </tr>
     <tr>
-      <th>6_TX2017_027</th>
+      <th>3</th>
+      <td>6_TX2017_027</td>
       <td>6341.0</td>
       <td>310.996688</td>
       <td>350.308142</td>
@@ -385,7 +759,8 @@ tlens_pivot_stats
       <td>3137.0</td>
     </tr>
     <tr>
-      <th>82_TX2016_049</th>
+      <th>4</th>
+      <td>82_TX2016_049</td>
       <td>1282.0</td>
       <td>512.560062</td>
       <td>427.567489</td>
@@ -396,7 +771,8 @@ tlens_pivot_stats
       <td>3127.0</td>
     </tr>
     <tr>
-      <th>8_TX2017_028</th>
+      <th>5</th>
+      <td>8_TX2017_028</td>
       <td>16997.0</td>
       <td>315.339060</td>
       <td>346.665598</td>
@@ -407,7 +783,8 @@ tlens_pivot_stats
       <td>3137.0</td>
     </tr>
     <tr>
-      <th>Bermuda_100</th>
+      <th>6</th>
+      <td>Bermuda_100</td>
       <td>9722.0</td>
       <td>431.066962</td>
       <td>314.744457</td>
@@ -418,7 +795,8 @@ tlens_pivot_stats
       <td>3137.0</td>
     </tr>
     <tr>
-      <th>Bermuda_103</th>
+      <th>7</th>
+      <td>Bermuda_103</td>
       <td>7757.0</td>
       <td>419.117829</td>
       <td>359.529713</td>
@@ -429,7 +807,8 @@ tlens_pivot_stats
       <td>3137.0</td>
     </tr>
     <tr>
-      <th>Bermuda_15</th>
+      <th>8</th>
+      <td>Bermuda_15</td>
       <td>5641.0</td>
       <td>395.194646</td>
       <td>351.770735</td>
@@ -440,7 +819,8 @@ tlens_pivot_stats
       <td>3137.0</td>
     </tr>
     <tr>
-      <th>Bermuda_19</th>
+      <th>9</th>
+      <td>Bermuda_19</td>
       <td>4390.0</td>
       <td>190.771071</td>
       <td>409.903404</td>
@@ -451,7 +831,8 @@ tlens_pivot_stats
       <td>3137.0</td>
     </tr>
     <tr>
-      <th>Bermuda_28</th>
+      <th>10</th>
+      <td>Bermuda_28</td>
       <td>3339.0</td>
       <td>418.286613</td>
       <td>424.549689</td>
@@ -462,7 +843,8 @@ tlens_pivot_stats
       <td>3137.0</td>
     </tr>
     <tr>
-      <th>Bermuda_30</th>
+      <th>11</th>
+      <td>Bermuda_30</td>
       <td>6880.0</td>
       <td>365.625000</td>
       <td>374.783218</td>
@@ -473,7 +855,8 @@ tlens_pivot_stats
       <td>3137.0</td>
     </tr>
     <tr>
-      <th>Bermuda_54</th>
+      <th>12</th>
+      <td>Bermuda_54</td>
       <td>2753.0</td>
       <td>371.334181</td>
       <td>424.610530</td>
@@ -484,7 +867,8 @@ tlens_pivot_stats
       <td>3137.0</td>
     </tr>
     <tr>
-      <th>Bermuda_55</th>
+      <th>13</th>
+      <td>Bermuda_55</td>
       <td>15056.0</td>
       <td>321.956296</td>
       <td>344.041420</td>
@@ -495,7 +879,8 @@ tlens_pivot_stats
       <td>3137.0</td>
     </tr>
     <tr>
-      <th>Bermuda_63</th>
+      <th>14</th>
+      <td>Bermuda_63</td>
       <td>4987.0</td>
       <td>376.940846</td>
       <td>397.516760</td>
@@ -506,7 +891,8 @@ tlens_pivot_stats
       <td>3137.0</td>
     </tr>
     <tr>
-      <th>Bermuda_65</th>
+      <th>15</th>
+      <td>Bermuda_65</td>
       <td>5348.0</td>
       <td>402.989716</td>
       <td>338.294270</td>
@@ -517,7 +903,8 @@ tlens_pivot_stats
       <td>3137.0</td>
     </tr>
     <tr>
-      <th>Bermuda_67</th>
+      <th>16</th>
+      <td>Bermuda_67</td>
       <td>13033.0</td>
       <td>435.751400</td>
       <td>331.478608</td>
@@ -528,7 +915,8 @@ tlens_pivot_stats
       <td>3137.0</td>
     </tr>
     <tr>
-      <th>Bermuda_68</th>
+      <th>17</th>
+      <td>Bermuda_68</td>
       <td>6487.0</td>
       <td>368.608756</td>
       <td>373.566136</td>
@@ -539,7 +927,8 @@ tlens_pivot_stats
       <td>3137.0</td>
     </tr>
     <tr>
-      <th>Bermuda_69</th>
+      <th>18</th>
+      <td>Bermuda_69</td>
       <td>9339.0</td>
       <td>357.884998</td>
       <td>336.989104</td>
@@ -550,7 +939,8 @@ tlens_pivot_stats
       <td>3137.0</td>
     </tr>
     <tr>
-      <th>Bermuda_79</th>
+      <th>19</th>
+      <td>Bermuda_79</td>
       <td>2428.0</td>
       <td>387.898682</td>
       <td>436.542009</td>
@@ -561,7 +951,8 @@ tlens_pivot_stats
       <td>3137.0</td>
     </tr>
     <tr>
-      <th>Bermuda_8</th>
+      <th>20</th>
+      <td>Bermuda_8</td>
       <td>6703.0</td>
       <td>375.664180</td>
       <td>360.835600</td>
@@ -572,7 +963,8 @@ tlens_pivot_stats
       <td>3137.0</td>
     </tr>
     <tr>
-      <th>Bermuda_80</th>
+      <th>21</th>
+      <td>Bermuda_80</td>
       <td>5069.0</td>
       <td>400.898599</td>
       <td>379.416251</td>
@@ -583,7 +975,8 @@ tlens_pivot_stats
       <td>3137.0</td>
     </tr>
     <tr>
-      <th>Bermuda_81</th>
+      <th>22</th>
+      <td>Bermuda_81</td>
       <td>6936.0</td>
       <td>338.637687</td>
       <td>385.079712</td>
@@ -594,7 +987,8 @@ tlens_pivot_stats
       <td>3137.0</td>
     </tr>
     <tr>
-      <th>Bermuda_83</th>
+      <th>23</th>
+      <td>Bermuda_83</td>
       <td>7599.0</td>
       <td>359.425188</td>
       <td>368.306002</td>
@@ -605,7 +999,8 @@ tlens_pivot_stats
       <td>3137.0</td>
     </tr>
     <tr>
-      <th>Bermuda_84</th>
+      <th>24</th>
+      <td>Bermuda_84</td>
       <td>6930.0</td>
       <td>379.326696</td>
       <td>328.911896</td>
@@ -616,7 +1011,8 @@ tlens_pivot_stats
       <td>3137.0</td>
     </tr>
     <tr>
-      <th>Bermuda_85</th>
+      <th>25</th>
+      <td>Bermuda_85</td>
       <td>4273.0</td>
       <td>447.263281</td>
       <td>359.050424</td>
@@ -627,7 +1023,8 @@ tlens_pivot_stats
       <td>3133.0</td>
     </tr>
     <tr>
-      <th>Bermuda_94</th>
+      <th>26</th>
+      <td>Bermuda_94</td>
       <td>4422.0</td>
       <td>431.235640</td>
       <td>341.910455</td>
@@ -638,7 +1035,8 @@ tlens_pivot_stats
       <td>3130.0</td>
     </tr>
     <tr>
-      <th>Guam_104460</th>
+      <th>27</th>
+      <td>Guam_104460</td>
       <td>5865.0</td>
       <td>432.878431</td>
       <td>303.075805</td>
@@ -649,7 +1047,8 @@ tlens_pivot_stats
       <td>3137.0</td>
     </tr>
     <tr>
-      <th>Guam_104461</th>
+      <th>28</th>
+      <td>Guam_104461</td>
       <td>4184.0</td>
       <td>434.890774</td>
       <td>344.967598</td>
@@ -660,7 +1059,8 @@ tlens_pivot_stats
       <td>3136.0</td>
     </tr>
     <tr>
-      <th>Guam_104464</th>
+      <th>29</th>
+      <td>Guam_104464</td>
       <td>4359.0</td>
       <td>446.582014</td>
       <td>348.107894</td>
@@ -671,7 +1071,8 @@ tlens_pivot_stats
       <td>3135.0</td>
     </tr>
     <tr>
-      <th>Guam_104465</th>
+      <th>30</th>
+      <td>Guam_104465</td>
       <td>9585.0</td>
       <td>393.382055</td>
       <td>297.619178</td>
@@ -682,7 +1083,8 @@ tlens_pivot_stats
       <td>3137.0</td>
     </tr>
     <tr>
-      <th>South_Africa</th>
+      <th>31</th>
+      <td>South_Africa</td>
       <td>4250.0</td>
       <td>391.533176</td>
       <td>316.652781</td>
