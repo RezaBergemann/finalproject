@@ -78,7 +78,7 @@ Table 1: Reference-based Assembly Results
 | South_Africa  |           6.76697e+06 |      466603           |            88315 |               5621 |     0.015264 |    0.0072   |            4250 |               1770 |
 
 
-Table 2: Reference-based Assembly Summary States
+Table 2: Reference-based Assembly Summary Statistics
 
 
 | stat   |   reads_passed_filter |   refseq_mapped_reads |   clusters_total |   clusters_hidepth |   hetero_est |   error_est |   reads_consens |   loci_in_assembly |
@@ -92,17 +92,7 @@ Table 2: Reference-based Assembly Summary States
 | max    |           1.32326e+07 |           1.76268e+06 |         436346   |           38193    |   0.022148   |  0.012212   |        16997    |            8339    |
 
 
-
-| stat   |   Template |   Obs_TLEN |
-|:-------|-----------:|-----------:|
-| mean   |    4131.19 |    377.955 |
-| std    |    3398.28 |    357.845 |
-| min    |       1    |     35     |
-| 25%    |    1600    |    101     |
-| 50%    |    3317    |    415     |
-| 75%    |    5635    |    504     |
-| max    |   16997    |   3137     |
-
+Table 3: Template Lengths of Samples
 
 
 | sample        |   count |    mean |     std |   min |    25% |   50% |   75% |   max |
@@ -141,6 +131,8 @@ Table 2: Reference-based Assembly Summary States
 | South_Africa  |    4250 | 391.533 | 316.653 |    35 | 156    | 420   |   498 |  3137 |
 
 
+### Figures
+
 
 
 
@@ -150,7 +142,7 @@ Table 2: Reference-based Assembly Summary States
 
 
     
-![png](AssemblyBothReport_files/AssemblyBothReport_10_1.png)
+![png](AssemblyBothReport_files/AssemblyBothReport_11_1.png)
     
 
 
@@ -163,6 +155,6 @@ Table 2: Reference-based Assembly Summary States
 
 
     
-![png](AssemblyBothReport_files/AssemblyBothReport_11_1.png)
+![png](AssemblyBothReport_files/AssemblyBothReport_12_1.png)
     
 
