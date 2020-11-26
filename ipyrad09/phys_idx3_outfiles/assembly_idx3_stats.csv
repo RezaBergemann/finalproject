@@ -1,4 +1,4 @@
-state  reads_raw  reads_passed_filter  refseq_mapped_reads  refseq_unmapped_reads  clusters_total  clusters_hidepth  hetero_est  error_est  reads_consens  loci_in_assembly
+sample state  reads_raw  reads_passed_filter  refseq_mapped_reads  refseq_unmapped_reads  clusters_total  clusters_hidepth  hetero_est  error_est  reads_consens  loci_in_assembly
 13_TX2016_043      7    2314090              2276699               590406                1686293          203003             10849    0.015853   0.010342           5782              3279
 42_TX2016_046      7    2625730              2621504               262858                2358646           99758              4305    0.012114   0.009876           3110              2009
 59_TX2016_048      7    2508914              2503578               237785                2265793           93409              3752    0.010275   0.011022           2621              1818
