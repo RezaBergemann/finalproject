@@ -10,7 +10,7 @@ reference/
 *_consens/
 *_outfiles/
 *.ipynb_checkpoints/
-
+*analysis-structure/
 
 *err.txt
 *out.txt
