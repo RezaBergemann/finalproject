@@ -48,7 +48,7 @@
 
 # Structure Analysis
 
-    78 previous results loaded for run [comp]
+    100 previous results loaded for run [comp]
     Samples: 29
     Sites before filtering: 101658
     Filtered (indels): 0
