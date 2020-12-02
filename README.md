@@ -40,7 +40,7 @@ The tools I used were... See analysis files at (links to analysis files).
 
 ## Results
 
-The tree in Figure 1...
+Some results are in  ipyrad09/AssemblyBothReport.md and ipyrad09/analysis.md
 
 ## Discussion
 
