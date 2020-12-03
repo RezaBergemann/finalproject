@@ -40,7 +40,7 @@ The tools I used were... See analysis files at (links to analysis files).
 
 ## Results
 
-The tree in Figure 1...
+Some results are in  ipyrad09/AssemblyBothReport.md and ipyrad09/analysis.md
 
 ## Discussion
 
@@ -51,9 +51,12 @@ The biggest difficulty in implementing these analyses was...
 If I did these analyses again, I would...
 
 ## References
-- Blanco‐Bercial, L. and Bucklin, A. (2016), New view of population genetics of zooplankton: RAD‐seq analysis reveals population structure of the North Atlantic planktonic copepod Centropages typicus. Mol Ecol, 25: 1566-1580. doi:10.1111/mec.13581
--  Davey, J.W, Blaxter, M.L., RADSeq: next-generation population genetics, Briefings in Functional Genomics, Volume 9, Issue 5-6, December 2010, Pages 416–423, https://doi.org/10.1093/bfgp/elq031
-- Eaton, D.A. and Overcast, I., 2020. ipyrad: Interactive assembly and analysis of RADseq datasets. Bioinformatics, 36(8), pp.2592-2594.
-- Munro, C., Vue, Z., Behringer, R.R. et al. Morphology and development of the Portuguese man of war, Physalia physalis. Sci Rep 9, 15522 (2019). https://doi.org/10.1038/s41598-019-51842-1
-- Pontin, D.R., Cruickshank, R.H. Molecular phylogenetics of the genus Physalia (Cnidaria: Siphonophora) in New Zealand coastal waters reveals cryptic diversity. Hydrobiologia 686, 91–105 (2012). https://doi.org/10.1007/s10750-011-0994-8
-- Reitzel, A.M., Herrera, S., Layden, M.J., Martindale, M.Q. and Shank, T.M. (2013), Going where traditional markers have not gone before: utility of and promise for RAD sequencing in marine invertebrate phylogeography and population genomics. Mol Ecol, 22: 2953-2970. doi:10.1111/mec.12228
+- Eaton, D. A. and I. Overcast (2020). "ipyrad: Interactive assembly and analysis of RADseq datasets." Bioinformatics 36(8): 2592-2594.
+- EVANNO, G., S. REGNAUT and J. GOUDET (2005). "Detecting the number of clusters of individuals using the software structure: a simulation study." Molecular Ecology 14(8): 2611-2620.
+- Jakobsson, M. and N. A. Rosenberg (2007). "CLUMPP: a cluster matching and permutation program for dealing with label switching and multimodality in analysis of population structure." Bioinformatics 23(14): 1801-1806.
+- Lawson, D. J., L. Van Dorp and D. Falush (2018). "A tutorial on how not to over-interpret STRUCTURE and ADMIXTURE bar plots." Nature Communications 9(1): 1-11.
+- Munro, C., Z. Vue, R. R. Behringer and C. W. Dunn (2019). "Morphology and development of the Portuguese man of war, Physalia physalis." Scientific reports 9(1): 1-12.
+- NOAA. "What is a gyre?", from https://oceanservice.noaa.gov/facts/gyre.html.
+- Pontin, D. and R. Cruickshank (2012). "Molecular phylogenetics of the genus Physalia (Cnidaria: Siphonophora) in New Zealand coastal waters reveals cryptic diversity." Hydrobiologia 686(1): 91-105.
+- Raj, A., M. Stephens and J. K. Pritchard (2014). "fastSTRUCTURE: variational inference of population structure in large SNP data sets." Genetics 197(2): 573-589.
+- Reitzel, A., S. Herrera, M. Layden, M. Martindale and T. Shank (2013). "Going where traditional markers have not gone before: utility of and promise for RAD sequencing in marine invertebrate phylogeography and population genomics." Molecular ecology 22(11): 2953-2970
