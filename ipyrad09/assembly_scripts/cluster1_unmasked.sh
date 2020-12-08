@@ -5,7 +5,7 @@
 #SBATCH --mem-per-cpu=20G
 #SBATCH --cpus-per-task=2
 #SBATCH --output=outfiles/cluster1_unmasked_out.txt
-#SBATCH --error=outfilescluster1_unmasked_err.txt
+#SBATCH --error=outfiles/cluster1_unmasked_err.txt
 
 module load miniconda
 conda activate ipyrad09
