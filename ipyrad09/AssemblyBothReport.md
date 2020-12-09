@@ -158,3 +158,16 @@ Table 3: Template Lengths of Samples
 ![png](AssemblyBothReport_files/AssemblyBothReport_12_1.png)
     
 
+
+
+
+
+    Text(0, 0.5, 'Count')
+
+
+
+
+    
+![png](AssemblyBothReport_files/AssemblyBothReport_13_1.png)
+    
+
