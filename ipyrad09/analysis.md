@@ -1,5 +1,18 @@
 # Masked Assembly
 
+
+
+
+    Text(0, 0.5, 'Count')
+
+
+
+
+    
+![png](analysis_files/analysis_3_1.png)
+    
+
+
 ## PCA analysis
 
     Samples: 29
@@ -17,6 +30,7 @@
     SNPs (total): 5440
     SNPs (unlinked): 404
     Imputation (null; sets to 0): 100.0%, 0.0%, 0.0%
+    Subsampling SNPs: 404/5440
 
 
 
@@ -47,6 +61,7 @@
 
 ## Structure Analysis
 
+    80 previous results loaded for run [masked]
     Samples: 29
     Sites before filtering: 101658
     Filtered (indels): 0
@@ -61,15 +76,16 @@
     Missing values in SNP matrix: 1024 (4.95%)
     SNPs (total): 713
     SNPs (unlinked): 89
+    [####################] 100% 0:03:28 | running 40 structure jobs 
 
 
 
 |    |   Nreps |    lnPK |   lnPPK |   deltaK |   estLnProbMean |   estLnProbStdev |
 |---:|--------:|--------:|--------:|---------:|----------------:|-----------------:|
-|  2 |      20 |   0     |   0     | 0        |        -650.04  |          29.1424 |
-|  3 |      20 |  -2.265 |  38.04  | 0.492212 |        -652.305 |          77.2838 |
-|  4 |      20 | -40.305 |  57.915 | 0.30837  |        -692.61  |         187.81   |
-|  5 |      20 |  17.61  |   0     | 0        |        -675     |          68.5632 |
+|  2 |      20 |   0     |   0     | 0        |        -660.69  |          24.3538 |
+|  3 |      20 |   8.625 |  39.595 | 0.525706 |        -652.065 |          75.3178 |
+|  4 |      20 | -30.97  |  51.95  | 0.271659 |        -683.035 |         191.233  |
+|  5 |      20 |  20.98  |   0     | 0        |        -662.055 |          50.7713 |
 
 
 
@@ -78,7 +94,7 @@
     
 
 
-    [K4] 20/20 results permuted across replicates (max_var=0).
+    [K3] 20/20 results permuted across replicates (max_var=0).
 
 
 
@@ -88,6 +104,19 @@
 
 
 # Unmasked Assembly
+
+
+
+
+    Text(0, 0.5, 'Count')
+
+
+
+
+    
+![png](analysis_files/analysis_16_1.png)
+    
+
 
 ## PCA analysis
 
@@ -137,6 +166,7 @@
 
 ## Structure analysis
 
+    80 previous results loaded for run [unmasked]
     Samples: 29
     Sites before filtering: 205250
     Filtered (indels): 0
@@ -151,16 +181,16 @@
     Missing values in SNP matrix: 2472 (3.44%)
     SNPs (total): 2480
     SNPs (unlinked): 97
-    [####################] 100% 0:06:32 | running 80 structure jobs 
+    [####################] 100% 0:03:49 | running 40 structure jobs 
 
 
 
-|    |   Nreps |   lnPK |   lnPPK |   deltaK |   estLnProbMean |   estLnProbStdev |
-|---:|--------:|-------:|--------:|---------:|----------------:|-----------------:|
-|  2 |      20 |  0     |   0     | 0        |        -863     |          323.105 |
-|  3 |      20 | -0.805 |  70.45  | 0.200537 |        -863.805 |          351.307 |
-|  4 |      20 | 69.645 |  31.945 | 0.263295 |        -794.16  |          121.328 |
-|  5 |      20 | 37.7   |   0     | 0        |        -756.46  |          103.196 |
+|    |   Nreps |    lnPK |   lnPPK |   deltaK |   estLnProbMean |   estLnProbStdev |
+|---:|--------:|--------:|--------:|---------:|----------------:|-----------------:|
+|  2 |      20 |   0     |   0     | 0        |        -782.82  |          32.9044 |
+|  3 |      20 |  45.965 | 118.905 | 1.89939  |        -736.855 |          62.6015 |
+|  4 |      20 | -72.94  | 122.72  | 0.854963 |        -809.795 |         143.538  |
+|  5 |      20 |  49.78  |   0     | 0        |        -760.015 |          86.2802 |
 
 
 
@@ -169,7 +199,7 @@
     
 
 
-    [K4] 20/20 results permuted across replicates (max_var=0).
+    [K3] 20/20 results permuted across replicates (max_var=0).
 
 
 
