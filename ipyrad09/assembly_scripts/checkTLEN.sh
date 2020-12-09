@@ -1,3 +1,3 @@
 #!/bin/bash
 
-for f in *.consens.bam; do sample="${f%%.consens.*}"; samtools view ${sample}.consens.bam | awk -v sample=$sample '{print NR "," sample "," sqrt($9**2)}'; done > TLENs.csv
+for f in *-mapped-sorted.bam; do sample="${f%%-mapped-sorted.*}"; samtools view ${sample}-mapped-sorted.bam | awk -v sample=$sample '{print NR "," sample "," sqrt($9**2)}'; done > TLENs.csv
