@@ -10,7 +10,7 @@ We intend to analyze RADseq data from 32 samples from four different sites - Ber
 
 We will evaluate two different methods for assembling the RADseq data, both based on a reference genome. As the Portuguese Man of War genome is highly repetitive, we will assembly the data on both a complete reference genome as well as a reference genome with the repeat region masked. We will then use PCA and STRUCTURE to examine the population structure across these different sites to inform future studies.
 
-![image.png](attachment:image.png)
+![png](final_report_files/phys_dist.png)
 
 **Figure 1:** Global Distribution of Portuguese Man Of War
 
